@@ -1,0 +1,507 @@
+/*
+Theme Name: Singapore Foreign Student Servieces Centre
+Theme URI: http://wordpress.org/
+Description: Theme for Singapore Foreign Student Services Centre.
+Version: 1.0
+Author: Khoa, "DK", Duong
+Author URI: 
+Tags: blue, custom header, fixed width, two columns
+*/
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	background: #fff url("images/bg_dots.gif") repeat;
+}
+
+a {
+	color: #0054a6;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+}
+
+hr {
+	height: 1px;
+	color: #666;
+	background-color: #666;
+	border: 0;
+	margin-bottom: 30px;
+}
+
+div#main_wrapper {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #fff;
+	border: 1px solid #c4e1ff;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+/* header */
+div#upper_padding {
+	width: 920px;	
+	height: 10px;
+	margin: 0 auto;
+	background-color: #0054a6;
+}
+
+div#language_switcher {
+	margin: 10px 0;
+	float: right;
+	font-size: 1.1em;
+	color: #333;
+}
+
+div#language_switcher a {
+	text-decoration: none;
+}
+
+div#language_switcher a:hover {
+	text-decoration: underline;
+}
+
+div#language_switcher ul li {
+	display: inline;
+	padding: 2px 0px 2px 10px;
+}
+
+div#language_switcher ul li.current_language_item {
+}
+
+div.header_clear {
+	clear: both;
+	height: 1px;
+}
+
+h1#logo {
+	width: 202px;
+	height: 70px;
+	margin-top: 20px;
+	float: left;
+	text-indent: -10000px;
+	background: url("images/logo.gif") no-repeat;
+	cursor: pointer;
+}
+
+div#banner {
+	width: 655px;
+	height: 111px;
+	float: right;
+	background-image: url("images/banner.jpg");
+	background-repeat: no-repeat;
+}
+/* endof header */
+
+/* main_content */
+div#main_content {
+	width: 655px;
+	min-height: 550px;
+	float: right;
+	font-size: 12px;
+	line-height: 17px;
+	color: #666;
+}
+
+div#main_content h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #f26522;
+	margin-bottom: 20px;
+}
+
+div#main_content h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #0054a6;
+	margin-bottom: 15px;
+}
+
+div#main_content h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+
+div#main_content p,
+div#main_content .general_list li {
+	margin-bottom: 15px;
+}
+
+/* endof main_content */
+
+/* kwicks */
+
+ul.kwicks { list-style: none; position: relative; }
+ul.kwicks li { width: 130px; height: 200px; margin-right: 3px; overflow: hidden; cursor: pointer; display: block; float: left; }
+ul.kwicks li#k1 { background: url("images/acco1.jpg"); }
+ul.kwicks li#k2 { background: url("images/acco2.jpg"); }
+ul.kwicks li#k3 { background: url("images/acco3.jpg"); }
+ul.kwicks li#k4 { background: url("images/acco4.jpg"); }
+ul.kwicks li#k5 { background: url("images/acco5.jpg"); }
+
+/* endof kwicks */
+
+/* strip_pad */
+div.strip_pad_top {
+	border-top: 1px solid #d4e9ff;
+	margin: 10px 0;
+}
+
+div.strip_pad_top span {
+	display: block;
+	height: 20px;
+	background: url("images/strip.gif") repeat;
+	margin-top: 3px;
+}
+
+div.strip_pad_bottom {
+	border-bottom: 1px solid #d4e9ff;
+	margin: 10px 0;
+}
+
+div.strip_pad_bottom span {
+	display: block;
+	height: 20px;
+	background: url("images/strip.gif") repeat;
+	margin-bottom: 3px;
+}
+/* endof strip_pad */
+
+/* separator */
+div.separator {
+	height: 10px;
+	background: url("images/separator.gif") repeat;
+	margin: 10px 0 20px 0;
+}
+/* endof separator*/
+
+/* table */
+table {
+	margin-bottom: 2em;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid #fff;
+	background: #eee;
+}
+/* endof table*/
+
+/* list */
+ul.general_ul {
+	list-style: url("images/ico_bullet_blue.gif");
+	margin: 0 0 15px 8px;
+}
+
+ol.general_ol {
+	list-style: decimal;
+	font: italic 14px Georgia, Times, serif;
+	color: #999999;
+	margin: 0 0 15px 8px;
+}
+
+ol.general_ol p {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	line-height: 17px;
+	color: #666;
+}
+
+ol.general_ol ul {
+	margin-left: 1em;
+}
+
+li.no_decor {
+	text-decoration: none;
+}
+/* endof list */
+
+/* search-form */
+div.search-form {
+	width: 205px;
+	margin-top: 10px;
+	padding: 10px 0 10px 10px;
+	background-color: #bfd4ff;
+}
+
+div.search-form form input {
+	border: 1px solid #0054a6;
+	padding: 2px 2px 2px 25px;
+	width: 150px;
+	background-color: #fff;
+	background-image: url("images/ico_search.png");
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+/* endof search-form */
+
+/* search result */
+div.entrytitle h2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	text-decoration: none;
+	color: #333;
+	margin-bottom: 0.5em;
+}
+/* endof search result */
+
+/* contact_form */
+div#contact_form {
+	position: relative;
+	
+}
+
+div#contact_form label {
+	display: block;
+	font-weight: bold;
+}
+
+div#contact_form input {
+	width: 250px;
+	border: 1px solid #c4e1ff;
+	background: #f5f5f5;
+	padding: 3px;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+div#contact_form textarea {
+	border: 1px solid #c4e1ff;
+	background: #f5f5f5;
+	padding: 3px;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	width: 400px;
+	height: 150px;
+}
+
+div#contact_form li.single_line {
+	height: 65px;
+}
+
+div#contact_form li.multi_line {
+	height: 200px;
+}
+
+div#contact_form p.error {
+	font-size: 11px;
+	color: #e44848;
+	height: 16px;
+	margin-bottom: 5px;
+}
+
+div#contact_form button {
+	padding: 5px 15px;
+	border: 1px solid #c4e1ff;
+	background: #f5f5f5;
+	color: #0054a6;
+	cursor: pointer;
+}	
+
+div#contact_form button:hover {
+	background: #d6e3ff;
+	border-color: #0054a6;
+}
+/* endof contact_form */
+
+/* main contact page */
+p#main_telephone {
+	background: url("images/ico_phone-trans.png") no-repeat;
+	padding-left: 25px;
+}
+
+p#main_email {
+	background: url("images/ico_email-trans.png") no-repeat;
+	padding-left: 25px;
+}
+
+p#main_msn {
+	background: url("images/ico_msn.gif") no-repeat;
+	padding-left: 25px;
+}
+
+/* endof main contact page */
+
+/* wp-quotes */
+div#wp_quotes {
+	width: 160px;
+	margin-top: 10px;
+	padding: 20px 15px 20px 40px;
+	background: #eee url("images/quotation_mark.gif") no-repeat 12px 15px;
+	overflow: auto;
+}
+
+div#wp_quotes div.wp_quotes_quote {
+	font: italic 11px/15px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	color: #50a5da;
+}
+
+div#wp_quotes div.wp_quotes_author {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-align: right;
+	color: #50a5da;
+	margin-top: 8px;
+}
+
+/* endof wp-quotes*/
+
+/* left_bar */
+div#left_bar {}
+
+div#left_bar ul#left_nav_bar li
+{
+	margin-bottom: 0;
+}
+
+div#left_bar ul#left_nav_bar li a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	color: #0054a6;
+	background-color: #bfd4ff;
+	background-image: url("images/ico_arrow.png");
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+	display: block;
+	width: 190px;
+	margin-bottom: 2px;
+	padding: 5px 0 5px 25px;
+}
+
+div#left_bar ul#left_nav_bar li a:hover {
+	background-color: #f26522; 
+	color: #fff;
+ 	background-image: url("images/ico_arrow_white.png");
+}
+
+div#left_bar ul#left_nav_bar li ul.drop_down_list {
+	display: block;
+}
+
+div#left_bar ul#left_nav_bar li ul.drop_down_list li a {
+	background-color: #d6e3ff;
+	background-image: none;
+}
+
+div#left_bar ul#left_nav_bar li ul.drop_down_list li a:hover {
+	background-color: #f2cfbf;
+	color: #0054a6;
+}
+
+div#left_bar ul#left_nav_bar li a.drop_down_button {
+	background-image: url("images/ico_plus.png");
+}
+
+div#left_bar ul#left_nav_bar li a.drop_down_button:hover {
+	background-image: url("images/ico_plus_white.png");
+}
+
+div#left_bar ul#left_nav_bar li a.active {
+	background-image: url("images/ico_minus.png");
+}
+
+div#left_bar ul#left_nav_bar li a.active:hover {
+	background-image: url("images/ico_minus_white.png");
+}
+/* endof left_bar*/
+
+/* footer */
+div#footer {
+	width: 920px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #0054a6;
+	overflow: auto;
+}
+
+div#footer p#footer_link {
+	color: #60b0ff;
+	font-size: 1em;
+	margin: 15px 0 0 20px;
+}
+
+div#footer p#footer_link a {
+	color: #60b0ff;
+	font-size: 1em;
+}
+
+div#footer p#footer_link a:hover {
+	color: #fff;
+}
+
+div#footer p#copyright {
+	color: #60b0ff;
+	font-size: 1em;
+	margin: 10px 0 0 20px;
+	padding-bottom: 10px;
+	width: 812px;
+	background: url("images/footer_separate_line.gif") no-repeat bottom;
+}
+
+div#wp_watermark {
+	width: 50px;
+	height: 49px;
+	background: url("images/ico_wp.gif") no-repeat;
+	margin: 10px 0 10px 20px;;
+	float: left;
+}
+
+div#footer_misc {
+	color: #3077bd;
+	margin: 10px;
+	float: left;
+}
+
+div#footer_misc p {
+	margin: 10px;
+}
+
+div#footer_misc a {
+	color: #3077bd;
+}
+
+div#footer_misc a:hover {
+	color: #fff;
+}
+
+div#footer_misc a.validator {
+	padding-left: 13px;
+	margin-right: 5px;
+	background: url("images/ico_tick.png") no-repeat;
+}
+
+div#footer_misc a.validator:hover {
+	background: url("images/ico_tick_mo.png") no-repeat;
+}
+
+div#footer_misc a.sitemap {
+	padding-left: 13px;
+	background: url("images/ico_globe.png") no-repeat;
+}
+
+div#footer_misc a.sitemap:hover {
+	background: url("images/ico_globe_mo.png") no-repeat;
+}
+/* endof footer */

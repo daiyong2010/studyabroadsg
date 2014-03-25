@@ -1,0 +1,188 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Singapore Foreign Student Services Centre" />
+<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
+<title>  &raquo; Singapore Institute of Materials Management (SIMM)</title>
+<link type="text/css" rel="stylesheet" href="../../wp-content/themes/SGSSC/resetreloaded.css" />
+<link type="text/css" rel="stylesheet" href="../../wp-content/themes/SGSSC/style.css" />
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="../../wp-content/themes/SGSSC/style_ie6.css" />
+<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../../wp-content/themes/SGSSC/js/jquery.js"></script>
+<script type="text/javascript" src="../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	/* preset for drop down lists on left bar */
+	if ($.cookie("school_list") == 'expanded') {
+		$("#school_list").css({ display: 'block' });
+	}
+	else {
+		$("#school_list").css({ display: 'none' });
+		$("#school_list").siblings("a").toggleClass("active");
+	}
+		
+	if ($.cookie("course_list") == 'expanded') {
+		$("#course_list").css({ display: 'block' });
+	}
+	else {
+		$("#course_list").css({ display: 'none' });
+		$("#course_list").siblings("a").toggleClass("active");
+	}
+
+	/* drop down animation for left bar */
+	$(".drop_down_button").click(function() {
+		$(this).next("ul").slideToggle("fast");
+		$(this).toggleClass("active");
+		
+		if($(this).next("ul").attr("id") == 'school_list') {
+			if ($.cookie("school_list") == 'collapsed')
+				$.cookie("school_list", "expanded", { path: '/'});
+			else
+				$.cookie("school_list", "collapsed", { path: '/'});
+		} else {
+			if ($.cookie("course_list") == 'collapsed')
+				$.cookie("course_list", "expanded", { path: '/'});
+			else
+				$.cookie("course_list", "collapsed", { path: '/'});
+		}
+				
+		return false;
+	});
+		
+	/* make the whole logo block clickable */	
+	$("#logo").click(function(){
+		window.location = $(this).find("a").attr("href");
+		return false;
+	});
+	
+});
+</script>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="upper_padding"></div>
+<div id="language_switcher">
+  <ul>
+    <li class="language_item current_language_item"><b>English</b></li><li class="language_item"><a href="langswitch_lang/zh/index.html">中文</a></li>  </ul>
+</div>
+<div class="header_clear"></div>
+<h1 id="logo"><a href="../../index.html">Singapore Foreign Student Services Centre</a></h1>
+<div id="banner"></div>
+<div class="header_clear"></div>
+<div class="strip_pad_top"><span>&nbsp;</span></div>
+
+<div id="main_content">
+    		<div id="post-109">
+		<h3>Singapore Institute of Materials Management (SIMM)</h3>			<div class="entry">
+				<p><img src="../../wp-content/uploads/2008/09/simm_logo.gif" alt="SIMM logo" title="simm_logo" width="254" height="104" class="size-full wp-image-117" /></p>
+
+<p>The Singapore Institute of Materials Management (SIMM) was incorporated in 1980 as a non-profit and self-supporting independent educational institution, with quality as its corporate emphasis. SIMM has since grown to be a premier institution offering Logistics, Supply chain Management and E-commerce education for the industry training professionals and assisting also in the conversion of manpower for personnel not in the Logistics and Procurement field or industry.</p>
+<p>The primary objective of the Institute is to establish and to maintain a high standard of knowledge and excellence in the field of Logistics and Procurement. The secondary objective is to promote and foster the study, research and development on Logistics and Materials Management on all aspects from Purchasing and Supply Chain Management to applying latest E-commerce technology and practices to the field of Logistics and Purchasing.</p>
+<p>SIMM organises regional Conference such as the Asia Pacific Logistics Conference (APLF) and is also a representative lead organiser for the Procurement Event for the bi-annual Globaltronics International Electronics gathering.</p>
+<p>SIMM is a member of the International Federation of Purchasing and Materials Management (IFPMM), Institute of Supply Management (ISM) and American Production and Inventory Management Society (APICS). The Institute is the authorised regional testing centre for the international recognised CPIM and CPM professional certifications. SIMM also works with the authorities and various government bodies such as IE Singapore (International Enterprise) and Economic Development Board (EDB) Singapore in various projects in the areas of Logistics and Procurement to further advance the interests of the industry and country development.</p>
+<h4>Philosophy "The Task Ahead is never as The Power behind Us"</h4>
+<p>The Institute believes in a strong culture for its member body and in a set of shared beliefs and is committed to its operational philosophy that promote the practice of Logistics and Procurement to its rightful position of recognition and appreciation. The Institute is also committed to identifying and developing progressive schemes of an educational nature consistent with the objectives of the Institute towards its promotion into an international centre of learning in the discipline of Logistics and Supply Chain Management.</p>
+<p>Educational qualifications awarded to SIMM members include MBus, MBA, BCom and Grad Dip. (LM) and Dip. (MM/DSCM)</p>
+				
+			</div>
+		</div>
+		  </div>
+  
+<div id="left_bar">
+  <ul id="left_nav_bar">
+    <li><a href="../../index.html">Home</a></li>
+    <li><a href="../../about-us/index.html">About us</a></li>
+    <li><a href="../../studying-in-singapore/index.html">Studying in Singapore</a></li>
+    <li><a href="../../living-in-singapore/index.html">Living in Singapore</a></li>
+    <li><a href="../../student-accommodation/index.html">Student Accommodation</a></li>
+    <li><a href="../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS Preparatory Class</a></li>
+    <li><a href="../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
+         
+    <li><a href="index.html#" class="drop_down_button active">Schools</a>
+      <ul id="school_list" class="drop_down_list">
+        <li><a href="../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
+        <li><a href="../apmi/index.html">APMI</a></li>
+        <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
+        <li><a href="../easb/index.html">EASB</a></li>
+        <li><a href="../erc/index.html">ERC</a></li>
+        <li><a href="../ftc/index.html">FTC</a></li>
+        <li><a href="../hartford/langswitch_lang/zh/index.html">Raffles College</a></li>
+        <li><a href="../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
+        <li><a href="../jcu/index.html">JCU</a></li>
+        <li><a href="../mdis/index.html">MDIS</a></li>
+        <li><a href="../polytechnics/index.html">Polytechnics</a></li>
+        <li><a href="../psb-academy/index.html">PSB Academy</a></li>
+        <li><a href="../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design Institute</a></li>
+        <li><a href="../saa/langswitch_lang/zh/index.html">SAA</a></li>
+        <li><a href="../aspire-hub-education/index.html">Aspire Hub Education</a></li>
+        <li><a href="index.html">SIMM</a></li>
+        <li><a href="../tmis/index.html">TMIS</a></li>
+        <li><a href="../government-schools/index.html">Government Schools</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="index.html#" class="drop_down_button active">Courses</a>
+      <ul id="course_list" class="drop_down_list">
+        <li><a href="../../courses/apmi-courses/index.html">APMI</a></li>
+        <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
+        <li><a href="../../courses/easb-courses/index.html">EASB</a></li>
+        <li><a href="../../courses/erc-courses/index.html">ERC</a></li>
+        <li><a href="../../courses/ftc-courses/index.html">FTC</a></li>
+        <li><a href="../../courses/hartford-courses/index.html">Hartford</a></li>
+        <li><a href="../../courses/informatics-courses/index.html">Informatics</a></li>
+        <li><a href="../../courses/jcu-courses/index.html">JCU</a></li>
+        <li><a href="../../courses/mdis-courses/index.html">MDIS</a></li>
+        <li><a href="../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
+        <li><a href="../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
+        <li><a href="../../courses/raffles-design-institute-courses/index.html">Raffles Design Institute</a></li>
+        <li><a href="../../courses/saa-courses/index.html">SAA</a></li>
+        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub Education</a></li>
+        <li><a href="../../courses/simm-courses/index.html">SIMM</a></li>
+        <li><a href="../../courses/tmis-courses/index.html">TMIS</a></li>
+      </ul>
+    </li>
+    <li><a href="../../partnership/index.html">Partnership</a></li>
+    <li><a href="../../contact-us/index.html">Contact Us</a></li>
+  </ul>
+  
+  <div class="search-form">
+    <script type="text/javascript">
+$(document).ready(function(){
+	$(".search-form input").focus(function(){
+		if($(this).val() == 'Search...') {
+			$(this).val("");
+		}
+	});
+});	
+
+</script>
+    <form method="get" id="searchform" action="http://studyabroadsg.com/">
+      <input type="text" value="Search..." name="s" id="s" maxlength="255"
+        onblur="if (this.value == '') {this.value = 'Search...';}"  
+       />
+      <input type="hidden" id="searchsubmit" />
+    </form>
+  </div>
+  	<div id="wp_quotes">
+		<div class="wp_quotes_quote">What I hear, I forget. What I see, I remember. What I do, I understand.</div>
+					<div class="wp_quotes_author">Confucius</div>
+				</div>
+	</div>
+<div class="header_clear"></div>
+  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+  <div id="footer">
+  	<p id="footer_link"><a href="../../index.html">Home</a> | <a href="../../about-us/index.html">About</a> | <a href="../../contact-us/index.html">Contact</a> | <a href="../../sitemap/index.html">Sitemap</a></p>
+    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+    <div id="wp_watermark"></div>
+    <div id="footer_misc">
+      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
