@@ -1,0 +1,5 @@
+a, input, div { behavior: url("iepngfix.htc.txt"); }
+
+div#left_bar ul#left_nav_bar li a { margin-bottom: 0; border-bottom: 2px solid #fff; }
+
+ol.general_ol { margin-left: 35px; }
