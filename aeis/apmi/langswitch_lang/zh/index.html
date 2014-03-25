@@ -1,187 +1,213 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Singapore Foreign Student Services Centre" />
-<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
-<title>  &raquo; 新加坡亚太管理学院</title>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css" />
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css" />
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css" />
-<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	/* preset for drop down lists on left bar */
-	if ($.cookie("school_list") == 'expanded') {
-		$("#school_list").css({ display: 'block' });
-	}
-	else {
-		$("#school_list").css({ display: 'none' });
-		$("#school_list").siblings("a").toggleClass("active");
-	}
-		
-	if ($.cookie("course_list") == 'expanded') {
-		$("#course_list").css({ display: 'block' });
-	}
-	else {
-		$("#course_list").css({ display: 'none' });
-		$("#course_list").siblings("a").toggleClass("active");
-	}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Singapore Foreign Student Services Centre"/>
+    <meta name="keywords" content="Singapore, study, abroad, school, university, homestay"/>
+    <title>  &raquo; 新加坡亚太管理学院</title>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css"/>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css"/>
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css"/>
+    <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* preset for drop down lists on left bar */
+            if ($.cookie("school_list") == 'expanded') {
+                $("#school_list").css({ display: 'block' });
+            }
+            else {
+                $("#school_list").css({ display: 'none' });
+                $("#school_list").siblings("a").toggleClass("active");
+            }
 
-	/* drop down animation for left bar */
-	$(".drop_down_button").click(function() {
-		$(this).next("ul").slideToggle("fast");
-		$(this).toggleClass("active");
-		
-		if($(this).next("ul").attr("id") == 'school_list') {
-			if ($.cookie("school_list") == 'collapsed')
-				$.cookie("school_list", "expanded", { path: '/'});
-			else
-				$.cookie("school_list", "collapsed", { path: '/'});
-		} else {
-			if ($.cookie("course_list") == 'collapsed')
-				$.cookie("course_list", "expanded", { path: '/'});
-			else
-				$.cookie("course_list", "collapsed", { path: '/'});
-		}
-				
-		return false;
-	});
-		
-	/* make the whole logo block clickable */	
-	$("#logo").click(function(){
-		window.location = $(this).find("a").attr("href");
-		return false;
-	});
-	
-});
-</script>
+            if ($.cookie("course_list") == 'expanded') {
+                $("#course_list").css({ display: 'block' });
+            }
+            else {
+                $("#course_list").css({ display: 'none' });
+                $("#course_list").siblings("a").toggleClass("active");
+            }
+
+            /* drop down animation for left bar */
+            $(".drop_down_button").click(function () {
+                $(this).next("ul").slideToggle("fast");
+                $(this).toggleClass("active");
+
+                if ($(this).next("ul").attr("id") == 'school_list') {
+                    if ($.cookie("school_list") == 'collapsed')
+                        $.cookie("school_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("school_list", "collapsed", { path: '/'});
+                } else {
+                    if ($.cookie("course_list") == 'collapsed')
+                        $.cookie("course_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("course_list", "collapsed", { path: '/'});
+                }
+
+                return false;
+            });
+
+            /* make the whole logo block clickable */
+            $("#logo").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div id="main_wrapper">
-<div id="upper_padding"></div>
-<div id="language_switcher">
-  <ul>
-    <li class="language_item"><a href="../en/index.html">English</a></li><li class="language_item current_language_item"><b>中文</b></li>  </ul>
-</div>
-<div class="header_clear"></div>
-<h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
-<div id="banner"></div>
-<div class="header_clear"></div>
-<div class="strip_pad_top"><span>&nbsp;</span></div>
-
-<div id="main_content">
-    		<div id="post-431">
-		<h3>新加坡亚太管理学院</h3>			<div class="entry">
-				<a href="../../../../wp-content/uploads/2008/10/apmi.jpg"><img src="../../../../wp-content/uploads/2008/10/apmi.jpg" alt="" title="apmi" width="155" height="55" class="alignnone size-medium wp-image-521" /></a>
-
-
-
-
-<p></p>
-<p><b>新加坡亚太管理学院 APMI</b> 成立于1989年，专为亚太区域的学生提供创新，实用的管理课程以及高品质的终身学习课程。亚太管理学院很荣幸的成为美国Kaplan国际教育集团的下属学院，Kaplan国际教育集团是全球终身教育领域的领先者，在全球拥有79个下属学院和90万名学生。亚太管理学院是在新加坡教育部正式注册的学院，并荣获中国驻新加坡大使馆教育处的资格认证。2003年，亚太管理学院因其高品质教学和服务质量，成为第一批荣获新加坡素质级教育认证的私立教育机构(SQC-PEO)，该认证由新加坡生产力,标准与创新局(SPRING)以及新加坡经济发展局 (EDB)共同制定。获得该认证的学校，其教育和管理品质受到新加坡政府认可。亚太管理学院提供的各种高质量课程及服务吸引了一批又一批来自新加坡、中国、马来西亚、印度和其他国家的国际学生。
-2004年12月1日，亚太管理学院正是签署并开始实施由新加坡消费者协会(CASE)出台的”学生利益保护计划”。通过这项计划的实施，学生财务上的利益就可以由一批专业、公正的第三方银行及保险业者来保障，从而使学生更加放心的投入学习。
-亚太管理学院实施的是完全透明话制度，尤其是清晰、简明的学费。学校代表会在学生递交申请前将费用结构中的每一部分详细告之。亚太承诺在学院的所有业务上 都做到绝对真实。亚太管理学院明确、标准的操作规范确保为学生提供优质、标准的服务，保证所有申请者和学生的询问及时的得到回答。
-</p>
-				
-			</div>
-		</div>
-		  </div>
-  
-<div id="left_bar">
-  <ul id="left_nav_bar">
-    <li><a href="../../../../index.html">首页</a></li>
-    <li><a href="../../../../about-us/index.html">关于我们</a></li>
-    <li><a href="../../../../studying-in-singapore/index.html">新加坡留学优势</a></li>
-    <li><a href="../../../../living-in-singapore/index.html">新加坡生活点滴</a></li>
-    <li><a href="../../../../student-accommodation/index.html">学生住宿</a>
-    <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS预备班</a></li>
-    <li><a href="../../../../student-accommodation/educational-tour/index.html">新加坡游学团</a></li>
-      
-    <li><a href="index.html#" class="drop_down_button active">推荐院校</a>
-      <ul id="school_list" class="drop_down_list">
-        <li><a href="../../index.html">新加坡亚太管理学院 (APMI)</a></li>
-        <li><a href="http://studyabroadsg.com/schools/cbs">新加坡哥伦比亚商学院 (CBS)</a></li>
-        <li><a href="../../../easb/index.html">新加坡东亚管理学院 (EASB)</a></li>
-        <li><a href="../../../erc/index.html">新加坡ERC学院(ERC)</a></li>
-        <li><a href="../../../ftc/index.html">新加坡金融培训学院 (FTC)</a></li>
-        <li><a href="../../../hartford/langswitch_lang/zh/index.html">新加坡哈福特商学院 (Hartford)</a></li>
-        <li><a href="../../../informatics/langswitch_lang/zh/index.html">新加坡英华美学院 (Informatics)</a></li>
-        <li><a href="../../../jcu/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
-        <li><a href="../../../mdis/index.html">新加坡管理发展学院 (MDIS)</a></li>
-        <li><a href="../../../polytechnics/index.html">理工学院</a></li>
-        <li><a href="../../../psb-academy/index.html">新加坡PSB学院 (PSB Academy)</a></li>
-        <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">新加坡莱佛士艺术设计学院 (Raffles)</a></li>
-        <li><a href="../../../saa/langswitch_lang/zh/index.html">新加坡会计学院(SAA)</a></li>
-        <li><a href="http://studyabroadsg.com/schools/shelton">爱思贝尔教育 (Aspire)</a></li>
-        <li><a href="../../../simm/index.html">新加坡物流管理学院 (SIMM)</a></li>
-        <li><a href="../../../tmis/index.html">新加坡旅游管理学院 (TMIS)</a></li>
-        <li><a href="../../../government-schools/index.html">公立学校</a></li>
-      </ul>
-    </li>
-    <li><a href="index.html#" class="drop_down_button active">热门课程</a>
-      <ul id="course_list" class="drop_down_list">
-        <li><a href="../../../../courses/apmi-courses/index.html">新加坡亚太管理学院 (APMI)</a></li>
-        <li><a href="http://studyabroadsg.com/courses/cbs-courses">新加坡哥伦比亚商学院 (CBS)</a></li>
-        <li><a href="../../../../courses/easb-courses/index.html">新加坡东亚管理学院 (EASB)</a></li>
-        <li><a href="../../../../courses/erc-courses/index.html">新加坡ERC学院(ERC)</a></li>
-        <li><a href="../../../../courses/ftc-courses/index.html">新加坡金融培训学院 (FTC)</a></li>
-        <li><a href="../../../../courses/hartford-courses/index.html">新加坡哈福特商学院 (Hartford)</a></li>
-        <li><a href="../../../../courses/informatics-courses/index.html">新加坡英华美学院 (Informatics)</a></li>
-        <li><a href="../../../../courses/jcu-courses/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
-        <li><a href="../../../../courses/mdis-courses/index.html">新加坡管理发展学院 (MDIS)</a></li>
-        <li><a href="../../../../courses/polytechnics-courses/index.html">理工学院</a></li>
-        <li><a href="../../../../courses/psb-academy-courses/index.html">新加坡PSB学院 (PSB Academy)</a></li>
-        <li><a href="../../../../courses/raffles-design-institute-courses/index.html">新加坡莱佛士艺术设计学院 (Raffles)</a></li>
-        <li><a href="../../../../courses/saa-courses/index.html">新加坡会计学院(SAA)</a></li>
-        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">爱思贝尔教育 (Aspire)</a></li>
-        <li><a href="../../../../courses/simm-courses/index.html">新加坡物流管理学院 (SIMM)</a></li>
-        <li><a href="../../../../courses/tmis-courses/index.html">新加坡旅游管理学院 (TMIS)</a></li>
-      </ul>
-    </li>
-    <li><a href="../../../../partnership/index.html">合作机会</a></li>
-    <li><a href="../../../../contact-us/index.html">联系我们</a></li>
-  </ul>
-  
-  <div class="search-form">
-    <script type="text/javascript">
-$(document).ready(function(){
-	$(".search-form input").focus(function(){
-		if($(this).val() == 'Search...') {
-			$(this).val("");
-		}
-	});
-});	
-
-</script>
-    <form method="get" id="searchform" action="http://studyabroadsg.com/">
-      <input type="text" value="Search..." name="s" id="s" maxlength="255"
-        onblur="if (this.value == '') {this.value = 'Search...';}"  
-       />
-      <input type="hidden" id="searchsubmit" />
-    </form>
-  </div>
-  	<div id="wp_quotes">
-		<div class="wp_quotes_quote">It is not the biggest, the brightest or the best that will survive, but those who adapt the quickest.</div>
-					<div class="wp_quotes_author">Charles Darwin</div>
-				</div>
-	</div>
-<div class="header_clear"></div>
-  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
-  <div id="footer">
-  	<p id="footer_link"><a href="../../../../index.html">Home</a> | <a href="../../../../about-us/index.html">About</a> | <a href="../../../../contact-us/index.html">Contact</a> | <a href="../../../../sitemap/index.html">Sitemap</a></p>
-    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
-    <div id="wp_watermark"></div>
-    <div id="footer_misc">
-      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
-      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    <div id="upper_padding"></div>
+    <div id="language_switcher">
+        <ul>
+            <li class="language_item"><a href="../en/index.html">English</a></li>
+            <li class="language_item current_language_item"><b>中文</b></li>
+        </ul>
     </div>
-  </div>
+    <div class="header_clear"></div>
+    <h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
+
+    <div id="banner"></div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_top"><span>&nbsp;</span></div>
+
+    <div id="main_content">
+        <div id="post-431">
+            <h3>新加坡亚太管理学院</h3>
+
+            <div class="entry">
+                <a href="../../../../wp-content/uploads/2008/10/apmi.jpg"><img
+                        src="../../../../wp-content/uploads/2008/10/apmi.jpg" alt="" title="apmi" width="155"
+                        height="55" class="alignnone size-medium wp-image-521"/></a>
+
+
+                <p></p>
+
+                <p><b>新加坡亚太管理学院 APMI</b>
+                    成立于1989年，专为亚太区域的学生提供创新，实用的管理课程以及高品质的终身学习课程。亚太管理学院很荣幸的成为美国Kaplan国际教育集团的下属学院，Kaplan国际教育集团是全球终身教育领域的领先者，在全球拥有79个下属学院和90万名学生。亚太管理学院是在新加坡教育部正式注册的学院，并荣获中国驻新加坡大使馆教育处的资格认证。2003年，亚太管理学院因其高品质教学和服务质量，成为第一批荣获新加坡素质级教育认证的私立教育机构(SQC-PEO)，该认证由新加坡生产力,标准与创新局(SPRING)以及新加坡经济发展局
+                    (EDB)共同制定。获得该认证的学校，其教育和管理品质受到新加坡政府认可。亚太管理学院提供的各种高质量课程及服务吸引了一批又一批来自新加坡、中国、马来西亚、印度和其他国家的国际学生。
+                    2004年12月1日，亚太管理学院正是签署并开始实施由新加坡消费者协会(CASE)出台的”学生利益保护计划”。通过这项计划的实施，学生财务上的利益就可以由一批专业、公正的第三方银行及保险业者来保障，从而使学生更加放心的投入学习。
+                    亚太管理学院实施的是完全透明话制度，尤其是清晰、简明的学费。学校代表会在学生递交申请前将费用结构中的每一部分详细告之。亚太承诺在学院的所有业务上
+                    都做到绝对真实。亚太管理学院明确、标准的操作规范确保为学生提供优质、标准的服务，保证所有申请者和学生的询问及时的得到回答。
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <ul id="left_nav_bar">
+            <li><a href="../../../../index.html">首页</a></li>
+            <li><a href="../../../../about-us/index.html">关于我们</a></li>
+            <li><a href="../../../../studying-in-singapore/index.html">新加坡留学优势</a></li>
+            <li><a href="../../../../living-in-singapore/index.html">新加坡生活点滴</a></li>
+            <li><a href="../../../../student-accommodation/index.html">学生住宿</a>
+            <li>
+                <a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS预备班</a>
+            </li>
+            <li><a href="../../../../student-accommodation/educational-tour/index.html">新加坡游学团</a></li>
+
+            <li><a href="index.html#" class="drop_down_button active">推荐院校</a>
+                <ul id="school_list" class="drop_down_list">
+                    <li><a href="../../index.html">新加坡亚太管理学院 (APMI)</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/cbs">新加坡哥伦比亚商学院 (CBS)</a></li>
+                    <li><a href="../../../easb/index.html">新加坡东亚管理学院 (EASB)</a></li>
+                    <li><a href="../../../erc/index.html">新加坡ERC学院(ERC)</a></li>
+                    <li><a href="../../../ftc/index.html">新加坡金融培训学院 (FTC)</a></li>
+                    <li><a href="../../../hartford/langswitch_lang/zh/index.html">新加坡哈福特商学院 (Hartford)</a></li>
+                    <li><a href="../../../informatics/langswitch_lang/zh/index.html">新加坡英华美学院 (Informatics)</a></li>
+                    <li><a href="../../../jcu/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
+                    <li><a href="../../../mdis/index.html">新加坡管理发展学院 (MDIS)</a></li>
+                    <li><a href="../../../polytechnics/index.html">理工学院</a></li>
+                    <li><a href="../../../psb-academy/index.html">新加坡PSB学院 (PSB Academy)</a></li>
+                    <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">新加坡莱佛士艺术设计学院
+                        (Raffles)</a></li>
+                    <li><a href="../../../saa/langswitch_lang/zh/index.html">新加坡会计学院(SAA)</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/shelton">爱思贝尔教育 (Aspire)</a></li>
+                    <li><a href="../../../simm/index.html">新加坡物流管理学院 (SIMM)</a></li>
+                    <li><a href="../../../tmis/index.html">新加坡旅游管理学院 (TMIS)</a></li>
+                    <li><a href="../../../government-schools/index.html">公立学校</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#" class="drop_down_button active">热门课程</a>
+                <ul id="course_list" class="drop_down_list">
+                    <li><a href="../../../../courses/apmi-courses/index.html">新加坡亚太管理学院 (APMI)</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/cbs-courses">新加坡哥伦比亚商学院 (CBS)</a></li>
+                    <li><a href="../../../../courses/easb-courses/index.html">新加坡东亚管理学院 (EASB)</a></li>
+                    <li><a href="../../../../courses/erc-courses/index.html">新加坡ERC学院(ERC)</a></li>
+                    <li><a href="../../../../courses/ftc-courses/index.html">新加坡金融培训学院 (FTC)</a></li>
+                    <li><a href="../../../../courses/hartford-courses/index.html">新加坡哈福特商学院 (Hartford)</a></li>
+                    <li><a href="../../../../courses/informatics-courses/index.html">新加坡英华美学院 (Informatics)</a></li>
+                    <li><a href="../../../../courses/jcu-courses/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
+                    <li><a href="../../../../courses/mdis-courses/index.html">新加坡管理发展学院 (MDIS)</a></li>
+                    <li><a href="../../../../courses/polytechnics-courses/index.html">理工学院</a></li>
+                    <li><a href="../../../../courses/psb-academy-courses/index.html">新加坡PSB学院 (PSB Academy)</a></li>
+                    <li><a href="../../../../courses/raffles-design-institute-courses/index.html">新加坡莱佛士艺术设计学院
+                        (Raffles)</a></li>
+                    <li><a href="../../../../courses/saa-courses/index.html">新加坡会计学院(SAA)</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">爱思贝尔教育 (Aspire)</a>
+                    </li>
+                    <li><a href="../../../../courses/simm-courses/index.html">新加坡物流管理学院 (SIMM)</a></li>
+                    <li><a href="../../../../courses/tmis-courses/index.html">新加坡旅游管理学院 (TMIS)</a></li>
+                </ul>
+            </li>
+            <li><a href="../../../../partnership/index.html">合作机会</a></li>
+            <li><a href="../../../../contact-us/index.html">联系我们</a></li>
+        </ul>
+
+        <div class="search-form">
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".search-form input").focus(function () {
+                        if ($(this).val() == 'Search...') {
+                            $(this).val("");
+                        }
+                    });
+                });
+
+            </script>
+            <form method="get" id="searchform" action="http://studyabroadsg.com/">
+                <input type="text" value="Search..." name="s" id="s" maxlength="255"
+                       onblur="if (this.value == '') {this.value = 'Search...';}"
+                        />
+                <input type="hidden" id="searchsubmit"/>
+            </form>
+        </div>
+        <div id="wp_quotes">
+            <div class="wp_quotes_quote">It is not the biggest, the brightest or the best that will survive, but those
+                who adapt the quickest.
+            </div>
+            <div class="wp_quotes_author">Charles Darwin</div>
+        </div>
+    </div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+    <div id="footer">
+        <p id="footer_link"><a href="../../../../index.html">Home</a> | <a
+                href="../../../../about-us/index.html">About</a> | <a
+                href="../../../../contact-us/index.html">Contact</a> | <a
+                href="../../../../sitemap/index.html">Sitemap</a></p>
+
+        <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+
+        <div id="wp_watermark"></div>
+        <div id="footer_misc">
+            <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+
+            <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator"
+                  target="_blank">XHTML</a> <a
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all"
+                    title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a>
+                <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

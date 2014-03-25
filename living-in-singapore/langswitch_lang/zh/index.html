@@ -1,221 +1,267 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Singapore Foreign Student Services Centre" />
-<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
-<title>  &raquo; 新加坡生活点滴</title>
-<link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/resetreloaded.css" />
-<link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/style.css" />
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/style_ie6.css" />
-<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../../wp-content/themes/SGSSC/js/jquery.js"></script>
-<script type="text/javascript" src="../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	/* preset for drop down lists on left bar */
-	if ($.cookie("school_list") == 'expanded') {
-		$("#school_list").css({ display: 'block' });
-	}
-	else {
-		$("#school_list").css({ display: 'none' });
-		$("#school_list").siblings("a").toggleClass("active");
-	}
-		
-	if ($.cookie("course_list") == 'expanded') {
-		$("#course_list").css({ display: 'block' });
-	}
-	else {
-		$("#course_list").css({ display: 'none' });
-		$("#course_list").siblings("a").toggleClass("active");
-	}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Singapore Foreign Student Services Centre"/>
+    <meta name="keywords" content="Singapore, study, abroad, school, university, homestay"/>
+    <title>  &raquo; 新加坡生活点滴</title>
+    <link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/resetreloaded.css"/>
+    <link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/style.css"/>
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="../../../wp-content/themes/SGSSC/style_ie6.css"/>
+    <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../wp-content/themes/SGSSC/js/jquery.js"></script>
+    <script type="text/javascript" src="../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* preset for drop down lists on left bar */
+            if ($.cookie("school_list") == 'expanded') {
+                $("#school_list").css({ display: 'block' });
+            }
+            else {
+                $("#school_list").css({ display: 'none' });
+                $("#school_list").siblings("a").toggleClass("active");
+            }
 
-	/* drop down animation for left bar */
-	$(".drop_down_button").click(function() {
-		$(this).next("ul").slideToggle("fast");
-		$(this).toggleClass("active");
-		
-		if($(this).next("ul").attr("id") == 'school_list') {
-			if ($.cookie("school_list") == 'collapsed')
-				$.cookie("school_list", "expanded", { path: '/'});
-			else
-				$.cookie("school_list", "collapsed", { path: '/'});
-		} else {
-			if ($.cookie("course_list") == 'collapsed')
-				$.cookie("course_list", "expanded", { path: '/'});
-			else
-				$.cookie("course_list", "collapsed", { path: '/'});
-		}
-				
-		return false;
-	});
-		
-	/* make the whole logo block clickable */	
-	$("#logo").click(function(){
-		window.location = $(this).find("a").attr("href");
-		return false;
-	});
-	
-});
-</script>
+            if ($.cookie("course_list") == 'expanded') {
+                $("#course_list").css({ display: 'block' });
+            }
+            else {
+                $("#course_list").css({ display: 'none' });
+                $("#course_list").siblings("a").toggleClass("active");
+            }
+
+            /* drop down animation for left bar */
+            $(".drop_down_button").click(function () {
+                $(this).next("ul").slideToggle("fast");
+                $(this).toggleClass("active");
+
+                if ($(this).next("ul").attr("id") == 'school_list') {
+                    if ($.cookie("school_list") == 'collapsed')
+                        $.cookie("school_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("school_list", "collapsed", { path: '/'});
+                } else {
+                    if ($.cookie("course_list") == 'collapsed')
+                        $.cookie("course_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("course_list", "collapsed", { path: '/'});
+                }
+
+                return false;
+            });
+
+            /* make the whole logo block clickable */
+            $("#logo").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div id="main_wrapper">
-<div id="upper_padding"></div>
-<div id="language_switcher">
-  <ul>
-    <li class="language_item"><a href="../en/index.html">English</a></li><li class="language_item current_language_item"><b>中文</b></li>  </ul>
-</div>
-<div class="header_clear"></div>
-<h1 id="logo"><a href="../../../index.html">Singapore Foreign Student Services Centre</a></h1>
-<div id="banner"></div>
-<div class="header_clear"></div>
-<div class="strip_pad_top"><span>&nbsp;</span></div>
-
-<div id="main_content">
-    		<div id="post-12">
-		<h3>新加坡生活点滴</h3>			<div class="entry">
-				<p>
-<h4>[1] 在新加坡的生活成本</h4>
-新加坡的物价和上海北京的水平差不多。
-<p>
-平均消费也就是 500 - 1000 新币/月（相当于人民币2500元 - 5000元）。关键在于房租和你平时零花钱用多少了。
-<p>
-吃一顿肯德基（KFC）两块炸鸡一杯可乐和沙拉的套餐需要新币6元（人民币30元）。
-<p>
-住房一个人通常是 450 - 700 新加坡币/月 （取决于房屋大小，位置，楼层，交通是否便利，一间屋住几个人，是否包括上网等等。拿两人间来说通常每人需要400新币/月）
-</p>
-<p>
-平均消费水平：
-<p>
-吃饭： 200 - 400 新币/月
-<p>交通： 100 新币/月
-<p>电话费： 30 新币/月
-<p>上网费：60 新币/月 （如果和同住的人共享的话只需要 20 -30元/月）
-</p>
-<p>
-<h4>[2] 新加坡的气候简介</h4>
-新加坡属热带雨林气候，气温湿热，日温差和年温差极小，月平均气温24-27度，年降雨量2400毫米，没有台风的袭扰。通常从上午10时到下午3时这段时间内比较闷热，气温在35度左右；夜晚和清晨在海风的吹拂下，气温降至20度上下，十分凉爽。因此，对于那些喜爱日光浴、游泳、航海以及其他水上运动的人来说，新加坡可称得上是天堂。那些讨厌炎热阳光的人也不会因此受罪，因为新加坡几乎所有的商店、旅馆、办公楼以及饭馆都装有空调设备。</p>
-<p>新加坡一年到头都有雨水，每年4-9月是少雨季，10月至第二年3月为多雨季。相对来说，比较干燥是在6月到8月。
-<p>每日平均气温：26.7℃；
-<p>最高每日平均气温：30.8℃；
-<p>最低每日平均气温：23.9℃；
-<p>最冷月份：12月到1月；
-<p>最热月份：5月到7月份；
-<p>年降雨量：2,353毫米；
-<p>每日平均相对湿度：84.3%；
-<p>每日平均湿度：60%到90%。
-<p>新加坡有两个不同的季候风季节，从12月到翌年3月吹东北季候风，相当潮湿；6月到9月则吹西南季候风，最为干燥。这两个季风期，间隔着季候风交替月，那就是4月到5月，以及11月到12月。在季候风交替月里，地面风弱多变，阳光酷热，形成下午至傍晚时分，全岛经常会有阵雨及雷雨。
-</p>
-
-<h4>[3] 新加坡流通货币是什么，兑换率是多少</h4>
-<p>新加坡流通货币是新加坡币。和人民币的兑换率约是：1新币=5人民币
-<p>新加坡常用纸币面值是：2元，5元，10元，50元，100元
-<p>常用硬币面值是：1分，5分，10分，20分，50分，1元
-<p>你还可以去银行要求兑换1000元和10000元面值的纸币，方便用于携带大量的现金。你在兑换货币的时候通常会收到1000元面值的纸币，这种纸币不能够在自动存款机上存入，只有去银行柜台才可以存入你的账户。
-</p>  
-  
-<h4>[4] 在新加坡都吃什么东西呢</h4>
-<p>您无论在新加坡的那一个角落，都可以找到地道的新加坡美食。吃可以说是新加坡人的一种生活风貌。新加坡汇集中，西，马来，印度的各类美食，不过，因为新加坡华人占了总人口的78%，所以新加坡的食物口味还是比较偏向中式料理的口味。相信你可以轻松的找到适合你口味的食物。
-<p>要了解其饮食文化最好的方法就是到小贩中心(熟食中心)品尝道地的小吃。这里超过120间熟食中心和无数的食阁（有空调）与kopitiam（咖啡店）。各区邻里中心都设有咖啡店，总共提供超过17,000个小吃摊位让您选择。除此，在各大百货商场都有至少有一、两间食阁售卖新加坡地道和其他国家的美食。所以，在新加坡要吃地道美食可说举手可得。
-<p>这里的一些熟食中心，如纽顿圈熟食中心、 麦士威路熟食中心、牛车水美食街、老巴刹和东海岸人工湖美食村也非常受旅客的欢迎。
-				
-			</div>
-		</div>
-		  </div>
-  
-<div id="left_bar">
-  <ul id="left_nav_bar">
-    <li><a href="../../../index.html">首页</a></li>
-    <li><a href="../../../about-us/index.html">关于我们</a></li>
-    <li><a href="../../../studying-in-singapore/index.html">新加坡留学优势</a></li>
-    <li><a href="../../index.html">新加坡生活点滴</a></li>
-    <li><a href="../../../student-accommodation/index.html">学生住宿</a>
-    <li><a href="../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS预备班</a></li>
-    <li><a href="../../../student-accommodation/educational-tour/index.html">新加坡游学团</a></li>
-      
-    <li><a href="index.html#" class="drop_down_button active">推荐院校</a>
-      <ul id="school_list" class="drop_down_list">
-        <li><a href="../../../aeis/apmi/index.html">新加坡亚太管理学院 (APMI)</a></li>
-        <li><a href="http://studyabroadsg.com/schools/cbs">新加坡哥伦比亚商学院 (CBS)</a></li>
-        <li><a href="../../../aeis/easb/index.html">新加坡东亚管理学院 (EASB)</a></li>
-        <li><a href="../../../aeis/erc/index.html">新加坡ERC学院(ERC)</a></li>
-        <li><a href="../../../aeis/ftc/index.html">新加坡金融培训学院 (FTC)</a></li>
-        <li><a href="../../../aeis/hartford/langswitch_lang/zh/index.html">新加坡哈福特商学院 (Hartford)</a></li>
-        <li><a href="../../../aeis/informatics/langswitch_lang/zh/index.html">新加坡英华美学院 (Informatics)</a></li>
-        <li><a href="../../../aeis/jcu/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
-        <li><a href="../../../aeis/mdis/index.html">新加坡管理发展学院 (MDIS)</a></li>
-        <li><a href="../../../aeis/polytechnics/index.html">理工学院</a></li>
-        <li><a href="../../../aeis/psb-academy/index.html">新加坡PSB学院 (PSB Academy)</a></li>
-        <li><a href="../../../aeis/raffles-design-institute/langswitch_lang/zh/index.html">新加坡莱佛士艺术设计学院 (Raffles)</a></li>
-        <li><a href="../../../aeis/saa/langswitch_lang/zh/index.html">新加坡会计学院(SAA)</a></li>
-        <li><a href="http://studyabroadsg.com/schools/shelton">爱思贝尔教育 (Aspire)</a></li>
-        <li><a href="../../../aeis/simm/index.html">新加坡物流管理学院 (SIMM)</a></li>
-        <li><a href="../../../aeis/tmis/index.html">新加坡旅游管理学院 (TMIS)</a></li>
-        <li><a href="../../../aeis/government-schools/index.html">公立学校</a></li>
-      </ul>
-    </li>
-    <li><a href="index.html#" class="drop_down_button active">热门课程</a>
-      <ul id="course_list" class="drop_down_list">
-        <li><a href="../../../courses/apmi-courses/index.html">新加坡亚太管理学院 (APMI)</a></li>
-        <li><a href="http://studyabroadsg.com/courses/cbs-courses">新加坡哥伦比亚商学院 (CBS)</a></li>
-        <li><a href="../../../courses/easb-courses/index.html">新加坡东亚管理学院 (EASB)</a></li>
-        <li><a href="../../../courses/erc-courses/index.html">新加坡ERC学院(ERC)</a></li>
-        <li><a href="../../../courses/ftc-courses/index.html">新加坡金融培训学院 (FTC)</a></li>
-        <li><a href="../../../courses/hartford-courses/index.html">新加坡哈福特商学院 (Hartford)</a></li>
-        <li><a href="../../../courses/informatics-courses/index.html">新加坡英华美学院 (Informatics)</a></li>
-        <li><a href="../../../courses/jcu-courses/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
-        <li><a href="../../../courses/mdis-courses/index.html">新加坡管理发展学院 (MDIS)</a></li>
-        <li><a href="../../../courses/polytechnics-courses/index.html">理工学院</a></li>
-        <li><a href="../../../courses/psb-academy-courses/index.html">新加坡PSB学院 (PSB Academy)</a></li>
-        <li><a href="../../../courses/raffles-design-institute-courses/index.html">新加坡莱佛士艺术设计学院 (Raffles)</a></li>
-        <li><a href="../../../courses/saa-courses/index.html">新加坡会计学院(SAA)</a></li>
-        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">爱思贝尔教育 (Aspire)</a></li>
-        <li><a href="../../../courses/simm-courses/index.html">新加坡物流管理学院 (SIMM)</a></li>
-        <li><a href="../../../courses/tmis-courses/index.html">新加坡旅游管理学院 (TMIS)</a></li>
-      </ul>
-    </li>
-    <li><a href="../../../partnership/index.html">合作机会</a></li>
-    <li><a href="../../../contact-us/index.html">联系我们</a></li>
-  </ul>
-  
-  <div class="search-form">
-    <script type="text/javascript">
-$(document).ready(function(){
-	$(".search-form input").focus(function(){
-		if($(this).val() == 'Search...') {
-			$(this).val("");
-		}
-	});
-});	
-
-</script>
-    <form method="get" id="searchform" action="http://studyabroadsg.com/">
-      <input type="text" value="Search..." name="s" id="s" maxlength="255"
-        onblur="if (this.value == '') {this.value = 'Search...';}"  
-       />
-      <input type="hidden" id="searchsubmit" />
-    </form>
-  </div>
-  	<div id="wp_quotes">
-		<div class="wp_quotes_quote">A single conversation with a wise man is better than ten years of study.</div>
-					<div class="wp_quotes_author">Chinese Proverb</div>
-				</div>
-	</div>
-<div class="header_clear"></div>
-  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
-  <div id="footer">
-  	<p id="footer_link"><a href="../../../index.html">Home</a> | <a href="../../../about-us/index.html">About</a> | <a href="../../../contact-us/index.html">Contact</a> | <a href="../../../sitemap/index.html">Sitemap</a></p>
-    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
-    <div id="wp_watermark"></div>
-    <div id="footer_misc">
-      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
-      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    <div id="upper_padding"></div>
+    <div id="language_switcher">
+        <ul>
+            <li class="language_item"><a href="../en/index.html">English</a></li>
+            <li class="language_item current_language_item"><b>中文</b></li>
+        </ul>
     </div>
-  </div>
+    <div class="header_clear"></div>
+    <h1 id="logo"><a href="../../../index.html">Singapore Foreign Student Services Centre</a></h1>
+
+    <div id="banner"></div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_top"><span>&nbsp;</span></div>
+
+    <div id="main_content">
+        <div id="post-12">
+            <h3>新加坡生活点滴</h3>
+
+            <div class="entry">
+                <p>
+                <h4>[1] 在新加坡的生活成本</h4>
+                新加坡的物价和上海北京的水平差不多。
+                <p>
+                    平均消费也就是 500 - 1000 新币/月（相当于人民币2500元 - 5000元）。关键在于房租和你平时零花钱用多少了。
+
+                <p>
+                    吃一顿肯德基（KFC）两块炸鸡一杯可乐和沙拉的套餐需要新币6元（人民币30元）。
+
+                <p>
+                    住房一个人通常是 450 - 700 新加坡币/月 （取决于房屋大小，位置，楼层，交通是否便利，一间屋住几个人，是否包括上网等等。拿两人间来说通常每人需要400新币/月）
+                </p>
+
+                <p>
+                    平均消费水平：
+
+                <p>
+                    吃饭： 200 - 400 新币/月
+
+                <p>交通： 100 新币/月
+
+                <p>电话费： 30 新币/月
+
+                <p>上网费：60 新币/月 （如果和同住的人共享的话只需要 20 -30元/月）
+                </p>
+
+                <p>
+                <h4>[2] 新加坡的气候简介</h4>
+                新加坡属热带雨林气候，气温湿热，日温差和年温差极小，月平均气温24-27度，年降雨量2400毫米，没有台风的袭扰。通常从上午10时到下午3时这段时间内比较闷热，气温在35度左右；夜晚和清晨在海风的吹拂下，气温降至20度上下，十分凉爽。因此，对于那些喜爱日光浴、游泳、航海以及其他水上运动的人来说，新加坡可称得上是天堂。那些讨厌炎热阳光的人也不会因此受罪，因为新加坡几乎所有的商店、旅馆、办公楼以及饭馆都装有空调设备。</p>
+                <p>新加坡一年到头都有雨水，每年4-9月是少雨季，10月至第二年3月为多雨季。相对来说，比较干燥是在6月到8月。
+
+                <p>每日平均气温：26.7℃；
+
+                <p>最高每日平均气温：30.8℃；
+
+                <p>最低每日平均气温：23.9℃；
+
+                <p>最冷月份：12月到1月；
+
+                <p>最热月份：5月到7月份；
+
+                <p>年降雨量：2,353毫米；
+
+                <p>每日平均相对湿度：84.3%；
+
+                <p>每日平均湿度：60%到90%。
+
+                <p>
+                    新加坡有两个不同的季候风季节，从12月到翌年3月吹东北季候风，相当潮湿；6月到9月则吹西南季候风，最为干燥。这两个季风期，间隔着季候风交替月，那就是4月到5月，以及11月到12月。在季候风交替月里，地面风弱多变，阳光酷热，形成下午至傍晚时分，全岛经常会有阵雨及雷雨。
+                </p>
+
+                <h4>[3] 新加坡流通货币是什么，兑换率是多少</h4>
+
+                <p>新加坡流通货币是新加坡币。和人民币的兑换率约是：1新币=5人民币
+
+                <p>新加坡常用纸币面值是：2元，5元，10元，50元，100元
+
+                <p>常用硬币面值是：1分，5分，10分，20分，50分，1元
+
+                <p>你还可以去银行要求兑换1000元和10000元面值的纸币，方便用于携带大量的现金。你在兑换货币的时候通常会收到1000元面值的纸币，这种纸币不能够在自动存款机上存入，只有去银行柜台才可以存入你的账户。
+                </p>
+
+                <h4>[4] 在新加坡都吃什么东西呢</h4>
+
+                <p>
+                    您无论在新加坡的那一个角落，都可以找到地道的新加坡美食。吃可以说是新加坡人的一种生活风貌。新加坡汇集中，西，马来，印度的各类美食，不过，因为新加坡华人占了总人口的78%，所以新加坡的食物口味还是比较偏向中式料理的口味。相信你可以轻松的找到适合你口味的食物。
+
+                <p>
+                    要了解其饮食文化最好的方法就是到小贩中心(熟食中心)品尝道地的小吃。这里超过120间熟食中心和无数的食阁（有空调）与kopitiam（咖啡店）。各区邻里中心都设有咖啡店，总共提供超过17,000个小吃摊位让您选择。除此，在各大百货商场都有至少有一、两间食阁售卖新加坡地道和其他国家的美食。所以，在新加坡要吃地道美食可说举手可得。
+
+                <p>这里的一些熟食中心，如纽顿圈熟食中心、 麦士威路熟食中心、牛车水美食街、老巴刹和东海岸人工湖美食村也非常受旅客的欢迎。
+
+            </div>
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <ul id="left_nav_bar">
+            <li><a href="../../../index.html">首页</a></li>
+            <li><a href="../../../about-us/index.html">关于我们</a></li>
+            <li><a href="../../../studying-in-singapore/index.html">新加坡留学优势</a></li>
+            <li><a href="../../index.html">新加坡生活点滴</a></li>
+            <li><a href="../../../student-accommodation/index.html">学生住宿</a>
+            <li>
+                <a href="../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS预备班</a>
+            </li>
+            <li><a href="../../../student-accommodation/educational-tour/index.html">新加坡游学团</a></li>
+
+            <li><a href="index.html#" class="drop_down_button active">推荐院校</a>
+                <ul id="school_list" class="drop_down_list">
+                    <li><a href="../../../aeis/apmi/index.html">新加坡亚太管理学院 (APMI)</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/cbs">新加坡哥伦比亚商学院 (CBS)</a></li>
+                    <li><a href="../../../aeis/easb/index.html">新加坡东亚管理学院 (EASB)</a></li>
+                    <li><a href="../../../aeis/erc/index.html">新加坡ERC学院(ERC)</a></li>
+                    <li><a href="../../../aeis/ftc/index.html">新加坡金融培训学院 (FTC)</a></li>
+                    <li><a href="../../../aeis/hartford/langswitch_lang/zh/index.html">新加坡哈福特商学院 (Hartford)</a></li>
+                    <li><a href="../../../aeis/informatics/langswitch_lang/zh/index.html">新加坡英华美学院 (Informatics)</a>
+                    </li>
+                    <li><a href="../../../aeis/jcu/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
+                    <li><a href="../../../aeis/mdis/index.html">新加坡管理发展学院 (MDIS)</a></li>
+                    <li><a href="../../../aeis/polytechnics/index.html">理工学院</a></li>
+                    <li><a href="../../../aeis/psb-academy/index.html">新加坡PSB学院 (PSB Academy)</a></li>
+                    <li><a href="../../../aeis/raffles-design-institute/langswitch_lang/zh/index.html">新加坡莱佛士艺术设计学院
+                        (Raffles)</a></li>
+                    <li><a href="../../../aeis/saa/langswitch_lang/zh/index.html">新加坡会计学院(SAA)</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/shelton">爱思贝尔教育 (Aspire)</a></li>
+                    <li><a href="../../../aeis/simm/index.html">新加坡物流管理学院 (SIMM)</a></li>
+                    <li><a href="../../../aeis/tmis/index.html">新加坡旅游管理学院 (TMIS)</a></li>
+                    <li><a href="../../../aeis/government-schools/index.html">公立学校</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#" class="drop_down_button active">热门课程</a>
+                <ul id="course_list" class="drop_down_list">
+                    <li><a href="../../../courses/apmi-courses/index.html">新加坡亚太管理学院 (APMI)</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/cbs-courses">新加坡哥伦比亚商学院 (CBS)</a></li>
+                    <li><a href="../../../courses/easb-courses/index.html">新加坡东亚管理学院 (EASB)</a></li>
+                    <li><a href="../../../courses/erc-courses/index.html">新加坡ERC学院(ERC)</a></li>
+                    <li><a href="../../../courses/ftc-courses/index.html">新加坡金融培训学院 (FTC)</a></li>
+                    <li><a href="../../../courses/hartford-courses/index.html">新加坡哈福特商学院 (Hartford)</a></li>
+                    <li><a href="../../../courses/informatics-courses/index.html">新加坡英华美学院 (Informatics)</a></li>
+                    <li><a href="../../../courses/jcu-courses/index.html">澳洲詹姆斯库克大学新加坡分校 (JCU)</a></li>
+                    <li><a href="../../../courses/mdis-courses/index.html">新加坡管理发展学院 (MDIS)</a></li>
+                    <li><a href="../../../courses/polytechnics-courses/index.html">理工学院</a></li>
+                    <li><a href="../../../courses/psb-academy-courses/index.html">新加坡PSB学院 (PSB Academy)</a></li>
+                    <li><a href="../../../courses/raffles-design-institute-courses/index.html">新加坡莱佛士艺术设计学院
+                        (Raffles)</a></li>
+                    <li><a href="../../../courses/saa-courses/index.html">新加坡会计学院(SAA)</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">爱思贝尔教育 (Aspire)</a>
+                    </li>
+                    <li><a href="../../../courses/simm-courses/index.html">新加坡物流管理学院 (SIMM)</a></li>
+                    <li><a href="../../../courses/tmis-courses/index.html">新加坡旅游管理学院 (TMIS)</a></li>
+                </ul>
+            </li>
+            <li><a href="../../../partnership/index.html">合作机会</a></li>
+            <li><a href="../../../contact-us/index.html">联系我们</a></li>
+        </ul>
+
+        <div class="search-form">
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".search-form input").focus(function () {
+                        if ($(this).val() == 'Search...') {
+                            $(this).val("");
+                        }
+                    });
+                });
+
+            </script>
+            <form method="get" id="searchform" action="http://studyabroadsg.com/">
+                <input type="text" value="Search..." name="s" id="s" maxlength="255"
+                       onblur="if (this.value == '') {this.value = 'Search...';}"
+                        />
+                <input type="hidden" id="searchsubmit"/>
+            </form>
+        </div>
+        <div id="wp_quotes">
+            <div class="wp_quotes_quote">A single conversation with a wise man is better than ten years of study.</div>
+            <div class="wp_quotes_author">Chinese Proverb</div>
+        </div>
+    </div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+    <div id="footer">
+        <p id="footer_link"><a href="../../../index.html">Home</a> | <a href="../../../about-us/index.html">About</a> |
+            <a href="../../../contact-us/index.html">Contact</a> | <a href="../../../sitemap/index.html">Sitemap</a></p>
+
+        <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+
+        <div id="wp_watermark"></div>
+        <div id="footer_misc">
+            <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+
+            <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator"
+                  target="_blank">XHTML</a> <a
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all"
+                    title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a>
+                <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a166f135-563f-452d-b16d-74b7b5b260e4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/studyabroadsg.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_downloads.html" afterPath="$PROJECT_DIR$/_downloads.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/contact_form.js" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/contact_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us/index.html" afterPath="$PROJECT_DIR$/about-us/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/about-us/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/about-us/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/aimt/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/aimt/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/aimt/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/aimt/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/apmi/index.html" afterPath="$PROJECT_DIR$/aeis/apmi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/apmi/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/apmi/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/apmi/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/apmi/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/aspire-hub-education/index.html" afterPath="$PROJECT_DIR$/aeis/aspire-hub-education/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/aspire-hub-education/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/aspire-hub-education/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/aspire-hub-education/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/aspire-hub-education/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/easb/index.html" afterPath="$PROJECT_DIR$/aeis/easb/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/easb/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/easb/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/easb/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/easb/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/erc/index.html" afterPath="$PROJECT_DIR$/aeis/erc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/erc/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/erc/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/erc/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/erc/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/ftc/index.html" afterPath="$PROJECT_DIR$/aeis/ftc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/ftc/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/ftc/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/ftc/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/ftc/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/government-schools/index.html" afterPath="$PROJECT_DIR$/aeis/government-schools/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/government-schools/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/government-schools/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/government-schools/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/government-schools/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/hartford/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/hartford/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/hartford/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/hartford/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/informatics/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/informatics/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/informatics/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/informatics/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/jcu/index.html" afterPath="$PROJECT_DIR$/aeis/jcu/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/jcu/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/jcu/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/jcu/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/jcu/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/mdis/index.html" afterPath="$PROJECT_DIR$/aeis/mdis/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/mdis/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/mdis/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/mdis/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/mdis/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/polytechnics/index.html" afterPath="$PROJECT_DIR$/aeis/polytechnics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/polytechnics/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/polytechnics/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/polytechnics/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/polytechnics/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/psb-academy/index.html" afterPath="$PROJECT_DIR$/aeis/psb-academy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/psb-academy/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/psb-academy/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/psb-academy/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/psb-academy/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/raffles-design-institute/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/raffles-design-institute/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/raffles-design-institute/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/raffles-design-institute/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/saa/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/saa/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/saa/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/saa/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/simm/index.html" afterPath="$PROJECT_DIR$/aeis/simm/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/simm/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/simm/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/simm/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/simm/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/tmis/index.html" afterPath="$PROJECT_DIR$/aeis/tmis/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/tmis/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/aeis/tmis/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aeis/tmis/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/aeis/tmis/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us/index.html" afterPath="$PROJECT_DIR$/contact-us/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/contact-us/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/contact-us/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-business-administration/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-commerce-with-double-majors-hospitality-tourism-management-and-marketing-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honors-in-marketing/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-honours-in-finance/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-science-it-with-double-majors-business-information-systems-and-computer-science/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/apmi-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/apmi-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/ba-hons-international-hospitality-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/bbus-logistics-and-operations-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/easb-courses/mba-hospitality-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/advanced-diploma-in-game-design-development/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-entrepreneurial-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/bba-tourism-and-hospitality-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/erc-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/erc-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/association-of-chartered-certified-accountants-acca/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/certified-accounting-technician-cat/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/ftc-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/ftc-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-commerce-majoring-in-tourism/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/bachelor-of-science-honours-in-applied-psychology/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/hartford-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/hartford-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-software-engineering/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/informatics-information-systems-and-software-engineering/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/informatics-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/informatics-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/ school-of-business-double-major-option-available/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/jcu-courses/school-of-psychology/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-accounting-and-finance/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bba-marketing/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-bsc-marketing/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-and-management-studies/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-business-computing/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-communication-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-convention-and-event-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-hotel-and-resort-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-information-technology/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-business/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-international-tourism-and-hospitality-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-mass-communications/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/mdis-courses/mdis-psychology/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-biomedical-science-bms/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-international-business-ibz-–-new/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-molecular-biotechnology-mbio/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/diploma-in-optometry-opt-–-new/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/polytechnics-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/polytechnics-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-electrical/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechanical/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-mechatronics/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-engineering-telecommunications/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-environmental-and-occupational-health-and-safety/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-genetics/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-biomedical-science/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-psychology/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/bachelor-of-science-sport-science/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-diploma-in-mechanical-engineering/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/psb-academy-courses/psb-life-science-foundation/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-fashion-design/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-multimedia/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/bachelor-of-design-product-design/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/raffles-design-institute-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/raffles-design-institute-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-acca/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-acca/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-acca/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-acca/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-acca/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-acca/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-cat/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-cat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-cat/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-cat/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/saa-courses/saa-cat/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/saa-courses/saa-cat/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-international-supply-chain/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/bachelor-of-commerce-in-logistics-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/simm-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/simm-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/bachelor-of-business-in-tourism-management/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses/tmis-courses/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/courses/tmis-courses/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/living-in-singapore/index.html" afterPath="$PROJECT_DIR$/living-in-singapore/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/living-in-singapore/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/living-in-singapore/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/living-in-singapore/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/living-in-singapore/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partnership/index.html" afterPath="$PROJECT_DIR$/partnership/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partnership/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/partnership/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partnership/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/partnership/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap/index.html" afterPath="$PROJECT_DIR$/sitemap/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/sitemap/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/sitemap/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/index.html" afterPath="$PROJECT_DIR$/student-accommodation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/aeis-preparatory-class/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/student-accommodation/aeis-preparatory-class/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/educational-tour/index.html" afterPath="$PROJECT_DIR$/student-accommodation/educational-tour/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/educational-tour/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/student-accommodation/educational-tour/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/educational-tour/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/student-accommodation/educational-tour/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/student-accommodation/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student-accommodation/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/student-accommodation/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studying-in-singapore/index.html" afterPath="$PROJECT_DIR$/studying-in-singapore/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studying-in-singapore/langswitch_lang/en/index.html" afterPath="$PROJECT_DIR$/studying-in-singapore/langswitch_lang/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studying-in-singapore/langswitch_lang/zh/index.html" afterPath="$PROJECT_DIR$/studying-in-singapore/langswitch_lang/zh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.js" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.kwicks.js" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/js/jquery.kwicks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/resetreloaded.css" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/resetreloaded.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/SGSSC/style_ie6.css" afterPath="$PROJECT_DIR$/wp-content/themes/SGSSC/style_ie6.css" />
+    </list>
+    <ignored path="studyabroadsg.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="studyabroadsg" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-us/langswitch_lang/en/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="46.25" vertical-offset="1110" max-vertical-offset="3270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about-us/langswitch_lang/zh/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="100.666664" vertical-offset="2416" max-vertical-offset="3360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-us/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="61.875" vertical-offset="1485" max-vertical-offset="3660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-us/langswitch_lang/zh/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="88.166664" vertical-offset="2536" max-vertical-offset="3690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/zh/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="35" selection-start="5178" selection-end="5178" vertical-scroll-proportion="53.125" vertical-offset="3345" max-vertical-offset="4245">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/en/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="24" selection-start="3928" selection-end="3928" vertical-scroll-proportion="-5.8783784" vertical-offset="3510" max-vertical-offset="4290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/zh/index.html" />
+        <option value="$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/en/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
+    <option name="y" value="25" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-computing-and-information-systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-computing-and-information-systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatics-computing-and-information-systems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apmi-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apmi-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bachelor-of-business-administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apmi-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bachelor-of-arts-honors-accounting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apmi-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bachelor-of-arts-honors-accounting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apmi-courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bachelor-of-arts-honors-accounting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyabroadsg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about-us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="langswitch_lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a166f135-563f-452d-b16d-74b7b5b260e4" name="Default" comment="" />
+      <created>1395759227760</created>
+      <updated>1395759227760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="25" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299566" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/about-us/langswitch_lang/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="46.25" vertical-offset="1110" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about-us/langswitch_lang/zh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="100.666664" vertical-offset="2416" max-vertical-offset="3000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="61.875" vertical-offset="1485" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us/langswitch_lang/zh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="88.166664" vertical-offset="2536" max-vertical-offset="3690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apmi-courses/bachelor-of-arts-honors-accounting/langswitch_lang/zh/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="35" selection-start="5178" selection-end="5178" vertical-scroll-proportion="53.125" vertical-offset="3345" max-vertical-offset="4245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/informatics-courses/informatics-computing-and-information-systems/langswitch_lang/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="24" selection-start="3928" selection-end="3928" vertical-scroll-proportion="-5.8783784" vertical-offset="3510" max-vertical-offset="4290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

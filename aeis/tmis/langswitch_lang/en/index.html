@@ -1,191 +1,242 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Singapore Foreign Student Services Centre" />
-<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
-<title>  &raquo; TMIS</title>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css" />
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css" />
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css" />
-<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	/* preset for drop down lists on left bar */
-	if ($.cookie("school_list") == 'expanded') {
-		$("#school_list").css({ display: 'block' });
-	}
-	else {
-		$("#school_list").css({ display: 'none' });
-		$("#school_list").siblings("a").toggleClass("active");
-	}
-		
-	if ($.cookie("course_list") == 'expanded') {
-		$("#course_list").css({ display: 'block' });
-	}
-	else {
-		$("#course_list").css({ display: 'none' });
-		$("#course_list").siblings("a").toggleClass("active");
-	}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Singapore Foreign Student Services Centre"/>
+    <meta name="keywords" content="Singapore, study, abroad, school, university, homestay"/>
+    <title>  &raquo; TMIS</title>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css"/>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css"/>
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css"/>
+    <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* preset for drop down lists on left bar */
+            if ($.cookie("school_list") == 'expanded') {
+                $("#school_list").css({ display: 'block' });
+            }
+            else {
+                $("#school_list").css({ display: 'none' });
+                $("#school_list").siblings("a").toggleClass("active");
+            }
 
-	/* drop down animation for left bar */
-	$(".drop_down_button").click(function() {
-		$(this).next("ul").slideToggle("fast");
-		$(this).toggleClass("active");
-		
-		if($(this).next("ul").attr("id") == 'school_list') {
-			if ($.cookie("school_list") == 'collapsed')
-				$.cookie("school_list", "expanded", { path: '/'});
-			else
-				$.cookie("school_list", "collapsed", { path: '/'});
-		} else {
-			if ($.cookie("course_list") == 'collapsed')
-				$.cookie("course_list", "expanded", { path: '/'});
-			else
-				$.cookie("course_list", "collapsed", { path: '/'});
-		}
-				
-		return false;
-	});
-		
-	/* make the whole logo block clickable */	
-	$("#logo").click(function(){
-		window.location = $(this).find("a").attr("href");
-		return false;
-	});
-	
-});
-</script>
+            if ($.cookie("course_list") == 'expanded') {
+                $("#course_list").css({ display: 'block' });
+            }
+            else {
+                $("#course_list").css({ display: 'none' });
+                $("#course_list").siblings("a").toggleClass("active");
+            }
+
+            /* drop down animation for left bar */
+            $(".drop_down_button").click(function () {
+                $(this).next("ul").slideToggle("fast");
+                $(this).toggleClass("active");
+
+                if ($(this).next("ul").attr("id") == 'school_list') {
+                    if ($.cookie("school_list") == 'collapsed')
+                        $.cookie("school_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("school_list", "collapsed", { path: '/'});
+                } else {
+                    if ($.cookie("course_list") == 'collapsed')
+                        $.cookie("course_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("course_list", "collapsed", { path: '/'});
+                }
+
+                return false;
+            });
+
+            /* make the whole logo block clickable */
+            $("#logo").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div id="main_wrapper">
-<div id="upper_padding"></div>
-<div id="language_switcher">
-  <ul>
-    <li class="language_item current_language_item"><b>English</b></li><li class="language_item"><a href="../zh/index.html">中文</a></li>  </ul>
-</div>
-<div class="header_clear"></div>
-<h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
-<div id="banner"></div>
-<div class="header_clear"></div>
-<div class="strip_pad_top"><span>&nbsp;</span></div>
-
-<div id="main_content">
-    		<div id="post-119">
-		<h3>TMIS</h3>			<div class="entry">
-				<p><img src="../../../../wp-content/uploads/2008/09/tmis_logo.gif" alt="TMIS logo" title="tmis_logo" width="650" height="54" class="size-full wp-image-126" /></p>
-
-<p>The Tourism Management Institute of Singapore (TMIS) was officially launched on 16 November 2000. It was previously the Centre for Tourism-Related Studies (CTRS) established in 1987. TMIS is a 100% owned subsidiary of the National Association of Travel Agents Singapore (NATAS). The corporate mission of TMIS is to upgrade the professionalism, service and productivity of the travel and tourism industry. In addition to providing training for our industry members, TMIS is also now actively providing tourism courses and training to the public in Singapore. Since its inception, we have trained more than 35,000 students for the tour and travel industry. We offer a wide spectrum of Tourism courses, from certificate, diplomas to degree, all of which are fully accredited internationally by established institutions from around the world. </p>
-<p>TMIS was awarded the Casetrust for Education accreditation in May 2005. This status will further enhance the confidence of international students and their parents in the quality of education in TMIS.<br />
-TMIS was also awarded the SQC-PEO accreditation in November 2005,<br />
-a recognition of business excellence.</p>
-<p>TMIS is proud to be one of Singapore Workforce Development Agency (WDA) Quality Provider to provide reality education for the Tour and Travel Services and Attractions sector, under the Tourism Workforce Skills Qualification (WSQ) framework. TMIS is the first national continuing education and training institute for the Tour &#038; Travel Services as well as Attractions Sectors in Singapore. We are also Singapore Tourism Board (STB) approved training centre for Tourist Guide Course.</p>
-<h4>TMIS Expanding Regionally, Envisioning The Future</h4>
-<p>TMIS was awarded the Casetrust for Education accreditation in May 2005. This status will further enhance the confidence of our international students and their parents in the quality<br />
-of education provided by us.</p>
-<p>In 2002, TMIS started receiving international students from Asia-Pacific. This is in line with our corporate mission to provide tourism education and training to students from other countries. Our increasing affluence has bolstered traveling, and tourism is one lucrative industry which many countries are competing to develop. This has opened up and will continue to breed more career opportunities in the industry in Singapore and around the world. </p>
-<p>With 18 years of experience in the travel and tourism industry, TMIS is more than equipped to provide training for these international students and staff of the travel industry. With our students coming from Malaysia, Indonesia , Myanmar , Cambodia , Vietnam , Korea and China , we have been called a 'Mini-United Nations'. To ensure our continuing value and relevance, TMIS will adopt a more regional perspective in our strategic goals and establish ourselves as the leading tourism training institute in the region.</p>
-				
-			</div>
-		</div>
-		  </div>
-  
-<div id="left_bar">
-  <ul id="left_nav_bar">
-    <li><a href="../../../../index.html">Home</a></li>
-    <li><a href="../../../../about-us/index.html">About us</a></li>
-    <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
-    <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
-    <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
-    <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS Preparatory Class</a></li>
-    <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
-         
-    <li><a href="index.html#" class="drop_down_button active">Schools</a>
-      <ul id="school_list" class="drop_down_list">
-        <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
-        <li><a href="../../../apmi/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
-        <li><a href="../../../easb/index.html">EASB</a></li>
-        <li><a href="../../../erc/index.html">ERC</a></li>
-        <li><a href="../../../ftc/index.html">FTC</a></li>
-        <li><a href="../../../hartford/langswitch_lang/zh/index.html">Raffles College</a></li>
-        <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
-        <li><a href="../../../jcu/index.html">JCU</a></li>
-        <li><a href="../../../mdis/index.html">MDIS</a></li>
-        <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
-        <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
-        <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
-        <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
-        <li><a href="../../../simm/index.html">SIMM</a></li>
-        <li><a href="../../index.html">TMIS</a></li>
-        <li><a href="../../../government-schools/index.html">Government Schools</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="index.html#" class="drop_down_button active">Courses</a>
-      <ul id="course_list" class="drop_down_list">
-        <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
-        <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
-        <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
-        <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
-        <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
-        <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
-        <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
-        <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
-        <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
-        <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
-        <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
-        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub Education</a></li>
-        <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
-        <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
-      </ul>
-    </li>
-    <li><a href="../../../../partnership/index.html">Partnership</a></li>
-    <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
-  </ul>
-  
-  <div class="search-form">
-    <script type="text/javascript">
-$(document).ready(function(){
-	$(".search-form input").focus(function(){
-		if($(this).val() == 'Search...') {
-			$(this).val("");
-		}
-	});
-});	
-
-</script>
-    <form method="get" id="searchform" action="http://studyabroadsg.com/">
-      <input type="text" value="Search..." name="s" id="s" maxlength="255"
-        onblur="if (this.value == '') {this.value = 'Search...';}"  
-       />
-      <input type="hidden" id="searchsubmit" />
-    </form>
-  </div>
-  	<div id="wp_quotes">
-		<div class="wp_quotes_quote">It is books that are the key to the wide world; if you can't do anything else, read all that you can.</div>
-					<div class="wp_quotes_author">Jane Hamilton</div>
-				</div>
-	</div>
-<div class="header_clear"></div>
-  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
-  <div id="footer">
-  	<p id="footer_link"><a href="../../../../index.html">Home</a> | <a href="../../../../about-us/index.html">About</a> | <a href="../../../../contact-us/index.html">Contact</a> | <a href="../../../../sitemap/index.html">Sitemap</a></p>
-    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
-    <div id="wp_watermark"></div>
-    <div id="footer_misc">
-      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
-      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    <div id="upper_padding"></div>
+    <div id="language_switcher">
+        <ul>
+            <li class="language_item current_language_item"><b>English</b></li>
+            <li class="language_item"><a href="../zh/index.html">中文</a></li>
+        </ul>
     </div>
-  </div>
+    <div class="header_clear"></div>
+    <h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
+
+    <div id="banner"></div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_top"><span>&nbsp;</span></div>
+
+    <div id="main_content">
+        <div id="post-119">
+            <h3>TMIS</h3>
+
+            <div class="entry">
+                <p><img src="../../../../wp-content/uploads/2008/09/tmis_logo.gif" alt="TMIS logo" title="tmis_logo"
+                        width="650" height="54" class="size-full wp-image-126"/></p>
+
+                <p>The Tourism Management Institute of Singapore (TMIS) was officially launched on 16 November 2000. It
+                    was previously the Centre for Tourism-Related Studies (CTRS) established in 1987. TMIS is a 100%
+                    owned subsidiary of the National Association of Travel Agents Singapore (NATAS). The corporate
+                    mission of TMIS is to upgrade the professionalism, service and productivity of the travel and
+                    tourism industry. In addition to providing training for our industry members, TMIS is also now
+                    actively providing tourism courses and training to the public in Singapore. Since its inception, we
+                    have trained more than 35,000 students for the tour and travel industry. We offer a wide spectrum of
+                    Tourism courses, from certificate, diplomas to degree, all of which are fully accredited
+                    internationally by established institutions from around the world. </p>
+
+                <p>TMIS was awarded the Casetrust for Education accreditation in May 2005. This status will further
+                    enhance the confidence of international students and their parents in the quality of education in
+                    TMIS.<br/>
+                    TMIS was also awarded the SQC-PEO accreditation in November 2005,<br/>
+                    a recognition of business excellence.</p>
+
+                <p>TMIS is proud to be one of Singapore Workforce Development Agency (WDA) Quality Provider to provide
+                    reality education for the Tour and Travel Services and Attractions sector, under the Tourism
+                    Workforce Skills Qualification (WSQ) framework. TMIS is the first national continuing education and
+                    training institute for the Tour &#038; Travel Services as well as Attractions Sectors in Singapore.
+                    We are also Singapore Tourism Board (STB) approved training centre for Tourist Guide Course.</p>
+                <h4>TMIS Expanding Regionally, Envisioning The Future</h4>
+
+                <p>TMIS was awarded the Casetrust for Education accreditation in May 2005. This status will further
+                    enhance the confidence of our international students and their parents in the quality<br/>
+                    of education provided by us.</p>
+
+                <p>In 2002, TMIS started receiving international students from Asia-Pacific. This is in line with our
+                    corporate mission to provide tourism education and training to students from other countries. Our
+                    increasing affluence has bolstered traveling, and tourism is one lucrative industry which many
+                    countries are competing to develop. This has opened up and will continue to breed more career
+                    opportunities in the industry in Singapore and around the world. </p>
+
+                <p>With 18 years of experience in the travel and tourism industry, TMIS is more than equipped to provide
+                    training for these international students and staff of the travel industry. With our students coming
+                    from Malaysia, Indonesia , Myanmar , Cambodia , Vietnam , Korea and China , we have been called a
+                    'Mini-United Nations'. To ensure our continuing value and relevance, TMIS will adopt a more regional
+                    perspective in our strategic goals and establish ourselves as the leading tourism training institute
+                    in the region.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <ul id="left_nav_bar">
+            <li><a href="../../../../index.html">Home</a></li>
+            <li><a href="../../../../about-us/index.html">About us</a></li>
+            <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
+            <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
+            <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
+            <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS
+                Preparatory Class</a></li>
+            <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
+
+            <li><a href="index.html#" class="drop_down_button active">Schools</a>
+                <ul id="school_list" class="drop_down_list">
+                    <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
+                    <li><a href="../../../apmi/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
+                    <li><a href="../../../easb/index.html">EASB</a></li>
+                    <li><a href="../../../erc/index.html">ERC</a></li>
+                    <li><a href="../../../ftc/index.html">FTC</a></li>
+                    <li><a href="../../../hartford/langswitch_lang/zh/index.html">Raffles College</a></li>
+                    <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
+                    <li><a href="../../../jcu/index.html">JCU</a></li>
+                    <li><a href="../../../mdis/index.html">MDIS</a></li>
+                    <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
+                    <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
+                    <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
+                    <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
+                    <li><a href="../../../simm/index.html">SIMM</a></li>
+                    <li><a href="../../index.html">TMIS</a></li>
+                    <li><a href="../../../government-schools/index.html">Government Schools</a></li>
+
+                </ul>
+            </li>
+            <li><a href="index.html#" class="drop_down_button active">Courses</a>
+                <ul id="course_list" class="drop_down_list">
+                    <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
+                    <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
+                    <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
+                    <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
+                    <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
+                    <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
+                    <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
+                    <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
+                    <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
+                    <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
+                    <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub
+                        Education</a></li>
+                    <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
+                    <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
+                </ul>
+            </li>
+            <li><a href="../../../../partnership/index.html">Partnership</a></li>
+            <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-form">
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".search-form input").focus(function () {
+                        if ($(this).val() == 'Search...') {
+                            $(this).val("");
+                        }
+                    });
+                });
+
+            </script>
+            <form method="get" id="searchform" action="http://studyabroadsg.com/">
+                <input type="text" value="Search..." name="s" id="s" maxlength="255"
+                       onblur="if (this.value == '') {this.value = 'Search...';}"
+                        />
+                <input type="hidden" id="searchsubmit"/>
+            </form>
+        </div>
+        <div id="wp_quotes">
+            <div class="wp_quotes_quote">It is books that are the key to the wide world; if you can't do anything else,
+                read all that you can.
+            </div>
+            <div class="wp_quotes_author">Jane Hamilton</div>
+        </div>
+    </div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+    <div id="footer">
+        <p id="footer_link"><a href="../../../../index.html">Home</a> | <a
+                href="../../../../about-us/index.html">About</a> | <a
+                href="../../../../contact-us/index.html">Contact</a> | <a
+                href="../../../../sitemap/index.html">Sitemap</a></p>
+
+        <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+
+        <div id="wp_watermark"></div>
+        <div id="footer_misc">
+            <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+
+            <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator"
+                  target="_blank">XHTML</a> <a
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all"
+                    title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a>
+                <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

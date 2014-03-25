@@ -1,197 +1,261 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Singapore Foreign Student Services Centre" />
-<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
-<title>  &raquo; Raffles College</title>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css" />
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css" />
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css" />
-<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	/* preset for drop down lists on left bar */
-	if ($.cookie("school_list") == 'expanded') {
-		$("#school_list").css({ display: 'block' });
-	}
-	else {
-		$("#school_list").css({ display: 'none' });
-		$("#school_list").siblings("a").toggleClass("active");
-	}
-		
-	if ($.cookie("course_list") == 'expanded') {
-		$("#course_list").css({ display: 'block' });
-	}
-	else {
-		$("#course_list").css({ display: 'none' });
-		$("#course_list").siblings("a").toggleClass("active");
-	}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Singapore Foreign Student Services Centre"/>
+    <meta name="keywords" content="Singapore, study, abroad, school, university, homestay"/>
+    <title>  &raquo; Raffles College</title>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css"/>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css"/>
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css"/>
+    <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* preset for drop down lists on left bar */
+            if ($.cookie("school_list") == 'expanded') {
+                $("#school_list").css({ display: 'block' });
+            }
+            else {
+                $("#school_list").css({ display: 'none' });
+                $("#school_list").siblings("a").toggleClass("active");
+            }
 
-	/* drop down animation for left bar */
-	$(".drop_down_button").click(function() {
-		$(this).next("ul").slideToggle("fast");
-		$(this).toggleClass("active");
-		
-		if($(this).next("ul").attr("id") == 'school_list') {
-			if ($.cookie("school_list") == 'collapsed')
-				$.cookie("school_list", "expanded", { path: '/'});
-			else
-				$.cookie("school_list", "collapsed", { path: '/'});
-		} else {
-			if ($.cookie("course_list") == 'collapsed')
-				$.cookie("course_list", "expanded", { path: '/'});
-			else
-				$.cookie("course_list", "collapsed", { path: '/'});
-		}
-				
-		return false;
-	});
-		
-	/* make the whole logo block clickable */	
-	$("#logo").click(function(){
-		window.location = $(this).find("a").attr("href");
-		return false;
-	});
-	
-});
-</script>
+            if ($.cookie("course_list") == 'expanded') {
+                $("#course_list").css({ display: 'block' });
+            }
+            else {
+                $("#course_list").css({ display: 'none' });
+                $("#course_list").siblings("a").toggleClass("active");
+            }
+
+            /* drop down animation for left bar */
+            $(".drop_down_button").click(function () {
+                $(this).next("ul").slideToggle("fast");
+                $(this).toggleClass("active");
+
+                if ($(this).next("ul").attr("id") == 'school_list') {
+                    if ($.cookie("school_list") == 'collapsed')
+                        $.cookie("school_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("school_list", "collapsed", { path: '/'});
+                } else {
+                    if ($.cookie("course_list") == 'collapsed')
+                        $.cookie("course_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("course_list", "collapsed", { path: '/'});
+                }
+
+                return false;
+            });
+
+            /* make the whole logo block clickable */
+            $("#logo").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div id="main_wrapper">
-<div id="upper_padding"></div>
-<div id="language_switcher">
-  <ul>
-    <li class="language_item current_language_item"><b>English</b></li><li class="language_item"><a href="../zh/index.html">中文</a></li>  </ul>
-</div>
-<div class="header_clear"></div>
-<h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
-<div id="banner"></div>
-<div class="header_clear"></div>
-<div class="strip_pad_top"><span>&nbsp;</span></div>
-
-<div id="main_content">
-    		<div id="post-444">
-		<h3>Raffles College</h3>			<div class="entry">
-				<a href="../../../../wp-content/uploads/2008/11/rafflescollege.jpg"><img src="../../../../wp-content/uploads/2008/11/rafflescollege.jpg" alt="" title="rafflescollege" width="143" height="56" class="alignnone size-medium wp-image-704" /></a>
-
-
-<p></p>
-<p>Established in 1999, <b>Raffles Education Corp College (Raffles College)</b> formerly known as <b>Hartford Institute</b>, part of Raffles Education Corporation is one of the leading Institutes in Singapore. As a Premier Education provider, we are committed to nurturing entrepreneurial and innovative talents. With focus on both undergraduate and postgraduate education, Raffles College aims to provide an unequalled education that will serve our students for a lifetime, and meet the needs of our wider community.</p>
-<p><b>Raffles College</b> resides in a heritage rich landmark (formerly known as Beach Road Police Station) with state-of-the-art technology and facilities, making the learning environment conducive for students. Students get to enjoy campus-wide wireless broadband access, a bigger library with IT facilities and a bigger campus that can house more than 5000 students.</p>
-<p><b>Raffles College</b> is awarded the prestigious Singapore Quality Class Award for Private Education Organisation (SQC PEO) by SPRING Singapore in recognition of excellent business processes and operational systems. In addition, Raffles College is also accredited by the Consumers Association of Singapore, and has attained Casetrust for Education status for establishing and maintaining a comprehensive student protection and welfare system.</p>
-<p><b>Raffles College</b> has Institutes in China, New Zealand, Hong Kong, Malaysia, Vietnam and Mongolia and has partnerships with several foreign Universities namely University of Wales and University of Leicester in the UK, Raffles College of Design and Commerce, Australian International Hotel School and the University of Newcastle in Australia. </p>
-<h4>Our Vision </h4>
-<p>As a Premier Education Provider we are committed to nurturing entrepreneurial and innovative talent in the field of business management, so as to support the economic development of the countries we operate in.</p>
-<h4>Our Mission </h4>
-<a href="../../../../wp-content/uploads/2008/11/rafflescollege21.jpg"><img src="../../../../wp-content/uploads/2008/11/rafflescollege21.jpg" alt="" title="rafflescollege21" width="154" height="101" class="alignnone size-medium wp-image-729" /></a>
-<p>We prepare our students to be business leaders by providing an education distinguished by its practical relevance and passion for excellence. We focus both on undergraduate education that emphasizes a personalized learning environment and on selected masters, doctoral, and other graduate programs that provide students with specialized educational experiences. We aim to provide an unequaled education that will serve our students for a lifetime, and meet the needs of our wider community in all the countries we operate in.</p>
-<h4>Service Guarantee Statement</h4>
-<p><b>Raffles College</b> is committed to constantly meet our customer's needs by providing consistently high quality products and services through a customer-oriented quality management system, and by continual improvement of the effectiveness of the quality management system. </p>
-<p><b>Raffles College</b> is dedicated in supporting the development and professional growth of our students and staff by providing high quality training, seminars and workshops in a variety of creative ways and by enhancing students' education experiences through creative brainstorming. </p>
-<p><b>Raffles College</b> is committed in life-long learning accessibility either through a virtual setting such as e-learning, or through the traditional classroom approach blended with the latest proven technologies and creative ideas. </p>
-<p>All the education programs and services provided by Raffles have one goal: providing quality learning environment and services without compromising the integrity and the high standards set by our University partners and by operating with Professional practises.</p>
-				
-			</div>
-		</div>
-		  </div>
-  
-<div id="left_bar">
-  <ul id="left_nav_bar">
-    <li><a href="../../../../index.html">Home</a></li>
-    <li><a href="../../../../about-us/index.html">About us</a></li>
-    <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
-    <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
-    <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
-    <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS Preparatory Class</a></li>
-    <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
-         
-    <li><a href="index.html#" class="drop_down_button active">Schools</a>
-      <ul id="school_list" class="drop_down_list">
-        <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
-        <li><a href="../../../apmi/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
-        <li><a href="../../../easb/index.html">EASB</a></li>
-        <li><a href="../../../erc/index.html">ERC</a></li>
-        <li><a href="../../../ftc/index.html">FTC</a></li>
-        <li><a href="../zh/index.html">Raffles College</a></li>
-        <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
-        <li><a href="../../../jcu/index.html">JCU</a></li>
-        <li><a href="../../../mdis/index.html">MDIS</a></li>
-        <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
-        <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
-        <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
-        <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
-        <li><a href="../../../simm/index.html">SIMM</a></li>
-        <li><a href="../../../tmis/index.html">TMIS</a></li>
-        <li><a href="../../../government-schools/index.html">Government Schools</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="index.html#" class="drop_down_button active">Courses</a>
-      <ul id="course_list" class="drop_down_list">
-        <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
-        <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
-        <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
-        <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
-        <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
-        <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
-        <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
-        <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
-        <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
-        <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
-        <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
-        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub Education</a></li>
-        <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
-        <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
-      </ul>
-    </li>
-    <li><a href="../../../../partnership/index.html">Partnership</a></li>
-    <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
-  </ul>
-  
-  <div class="search-form">
-    <script type="text/javascript">
-$(document).ready(function(){
-	$(".search-form input").focus(function(){
-		if($(this).val() == 'Search...') {
-			$(this).val("");
-		}
-	});
-});	
-
-</script>
-    <form method="get" id="searchform" action="http://studyabroadsg.com/">
-      <input type="text" value="Search..." name="s" id="s" maxlength="255"
-        onblur="if (this.value == '') {this.value = 'Search...';}"  
-       />
-      <input type="hidden" id="searchsubmit" />
-    </form>
-  </div>
-  	<div id="wp_quotes">
-		<div class="wp_quotes_quote">Nothing is ever achieved without enthusiasm.</div>
-					<div class="wp_quotes_author">Ralph Waldo Emerson</div>
-				</div>
-	</div>
-<div class="header_clear"></div>
-  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
-  <div id="footer">
-  	<p id="footer_link"><a href="../../../../index.html">Home</a> | <a href="../../../../about-us/index.html">About</a> | <a href="../../../../contact-us/index.html">Contact</a> | <a href="../../../../sitemap/index.html">Sitemap</a></p>
-    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
-    <div id="wp_watermark"></div>
-    <div id="footer_misc">
-      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
-      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    <div id="upper_padding"></div>
+    <div id="language_switcher">
+        <ul>
+            <li class="language_item current_language_item"><b>English</b></li>
+            <li class="language_item"><a href="../zh/index.html">中文</a></li>
+        </ul>
     </div>
-  </div>
+    <div class="header_clear"></div>
+    <h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
+
+    <div id="banner"></div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_top"><span>&nbsp;</span></div>
+
+    <div id="main_content">
+        <div id="post-444">
+            <h3>Raffles College</h3>
+
+            <div class="entry">
+                <a href="../../../../wp-content/uploads/2008/11/rafflescollege.jpg"><img
+                        src="../../../../wp-content/uploads/2008/11/rafflescollege.jpg" alt="" title="rafflescollege"
+                        width="143" height="56" class="alignnone size-medium wp-image-704"/></a>
+
+
+                <p></p>
+
+                <p>Established in 1999, <b>Raffles Education Corp College (Raffles College)</b> formerly known as <b>Hartford
+                    Institute</b>, part of Raffles Education Corporation is one of the leading Institutes in Singapore.
+                    As a Premier Education provider, we are committed to nurturing entrepreneurial and innovative
+                    talents. With focus on both undergraduate and postgraduate education, Raffles College aims to
+                    provide an unequalled education that will serve our students for a lifetime, and meet the needs of
+                    our wider community.</p>
+
+                <p><b>Raffles College</b> resides in a heritage rich landmark (formerly known as Beach Road Police
+                    Station) with state-of-the-art technology and facilities, making the learning environment conducive
+                    for students. Students get to enjoy campus-wide wireless broadband access, a bigger library with IT
+                    facilities and a bigger campus that can house more than 5000 students.</p>
+
+                <p><b>Raffles College</b> is awarded the prestigious Singapore Quality Class Award for Private Education
+                    Organisation (SQC PEO) by SPRING Singapore in recognition of excellent business processes and
+                    operational systems. In addition, Raffles College is also accredited by the Consumers Association of
+                    Singapore, and has attained Casetrust for Education status for establishing and maintaining a
+                    comprehensive student protection and welfare system.</p>
+
+                <p><b>Raffles College</b> has Institutes in China, New Zealand, Hong Kong, Malaysia, Vietnam and
+                    Mongolia and has partnerships with several foreign Universities namely University of Wales and
+                    University of Leicester in the UK, Raffles College of Design and Commerce, Australian International
+                    Hotel School and the University of Newcastle in Australia. </p>
+                <h4>Our Vision </h4>
+
+                <p>As a Premier Education Provider we are committed to nurturing entrepreneurial and innovative talent
+                    in the field of business management, so as to support the economic development of the countries we
+                    operate in.</p>
+                <h4>Our Mission </h4>
+                <a href="../../../../wp-content/uploads/2008/11/rafflescollege21.jpg"><img
+                        src="../../../../wp-content/uploads/2008/11/rafflescollege21.jpg" alt=""
+                        title="rafflescollege21" width="154" height="101"
+                        class="alignnone size-medium wp-image-729"/></a>
+
+                <p>We prepare our students to be business leaders by providing an education distinguished by its
+                    practical relevance and passion for excellence. We focus both on undergraduate education that
+                    emphasizes a personalized learning environment and on selected masters, doctoral, and other graduate
+                    programs that provide students with specialized educational experiences. We aim to provide an
+                    unequaled education that will serve our students for a lifetime, and meet the needs of our wider
+                    community in all the countries we operate in.</p>
+                <h4>Service Guarantee Statement</h4>
+
+                <p><b>Raffles College</b> is committed to constantly meet our customer's needs by providing consistently
+                    high quality products and services through a customer-oriented quality management system, and by
+                    continual improvement of the effectiveness of the quality management system. </p>
+
+                <p><b>Raffles College</b> is dedicated in supporting the development and professional growth of our
+                    students and staff by providing high quality training, seminars and workshops in a variety of
+                    creative ways and by enhancing students' education experiences through creative brainstorming. </p>
+
+                <p><b>Raffles College</b> is committed in life-long learning accessibility either through a virtual
+                    setting such as e-learning, or through the traditional classroom approach blended with the latest
+                    proven technologies and creative ideas. </p>
+
+                <p>All the education programs and services provided by Raffles have one goal: providing quality learning
+                    environment and services without compromising the integrity and the high standards set by our
+                    University partners and by operating with Professional practises.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <ul id="left_nav_bar">
+            <li><a href="../../../../index.html">Home</a></li>
+            <li><a href="../../../../about-us/index.html">About us</a></li>
+            <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
+            <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
+            <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
+            <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS
+                Preparatory Class</a></li>
+            <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
+
+            <li><a href="index.html#" class="drop_down_button active">Schools</a>
+                <ul id="school_list" class="drop_down_list">
+                    <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
+                    <li><a href="../../../apmi/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
+                    <li><a href="../../../easb/index.html">EASB</a></li>
+                    <li><a href="../../../erc/index.html">ERC</a></li>
+                    <li><a href="../../../ftc/index.html">FTC</a></li>
+                    <li><a href="../zh/index.html">Raffles College</a></li>
+                    <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
+                    <li><a href="../../../jcu/index.html">JCU</a></li>
+                    <li><a href="../../../mdis/index.html">MDIS</a></li>
+                    <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
+                    <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
+                    <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
+                    <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
+                    <li><a href="../../../simm/index.html">SIMM</a></li>
+                    <li><a href="../../../tmis/index.html">TMIS</a></li>
+                    <li><a href="../../../government-schools/index.html">Government Schools</a></li>
+
+                </ul>
+            </li>
+            <li><a href="index.html#" class="drop_down_button active">Courses</a>
+                <ul id="course_list" class="drop_down_list">
+                    <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
+                    <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
+                    <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
+                    <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
+                    <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
+                    <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
+                    <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
+                    <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
+                    <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
+                    <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
+                    <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub
+                        Education</a></li>
+                    <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
+                    <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
+                </ul>
+            </li>
+            <li><a href="../../../../partnership/index.html">Partnership</a></li>
+            <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-form">
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".search-form input").focus(function () {
+                        if ($(this).val() == 'Search...') {
+                            $(this).val("");
+                        }
+                    });
+                });
+
+            </script>
+            <form method="get" id="searchform" action="http://studyabroadsg.com/">
+                <input type="text" value="Search..." name="s" id="s" maxlength="255"
+                       onblur="if (this.value == '') {this.value = 'Search...';}"
+                        />
+                <input type="hidden" id="searchsubmit"/>
+            </form>
+        </div>
+        <div id="wp_quotes">
+            <div class="wp_quotes_quote">Nothing is ever achieved without enthusiasm.</div>
+            <div class="wp_quotes_author">Ralph Waldo Emerson</div>
+        </div>
+    </div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+    <div id="footer">
+        <p id="footer_link"><a href="../../../../index.html">Home</a> | <a
+                href="../../../../about-us/index.html">About</a> | <a
+                href="../../../../contact-us/index.html">Contact</a> | <a
+                href="../../../../sitemap/index.html">Sitemap</a></p>
+
+        <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+
+        <div id="wp_watermark"></div>
+        <div id="footer_misc">
+            <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+
+            <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator"
+                  target="_blank">XHTML</a> <a
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all"
+                    title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a>
+                <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>

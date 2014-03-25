@@ -1,194 +1,248 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Singapore Foreign Student Services Centre" />
-<meta name="keywords" content="Singapore, study, abroad, school, university, homestay" />
-<title>  &raquo; GOVERNMENT SCHOOLS</title>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css" />
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css" />
-<!--[if lt IE 7]>
-<link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css" />
-<script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
-<script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	/* preset for drop down lists on left bar */
-	if ($.cookie("school_list") == 'expanded') {
-		$("#school_list").css({ display: 'block' });
-	}
-	else {
-		$("#school_list").css({ display: 'none' });
-		$("#school_list").siblings("a").toggleClass("active");
-	}
-		
-	if ($.cookie("course_list") == 'expanded') {
-		$("#course_list").css({ display: 'block' });
-	}
-	else {
-		$("#course_list").css({ display: 'none' });
-		$("#course_list").siblings("a").toggleClass("active");
-	}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Singapore Foreign Student Services Centre"/>
+    <meta name="keywords" content="Singapore, study, abroad, school, university, homestay"/>
+    <title>  &raquo; GOVERNMENT SCHOOLS</title>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/resetreloaded.css"/>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style.css"/>
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="../../../../wp-content/themes/SGSSC/style_ie6.css"/>
+    <script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.js"></script>
+    <script type="text/javascript" src="../../../../wp-content/themes/SGSSC/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* preset for drop down lists on left bar */
+            if ($.cookie("school_list") == 'expanded') {
+                $("#school_list").css({ display: 'block' });
+            }
+            else {
+                $("#school_list").css({ display: 'none' });
+                $("#school_list").siblings("a").toggleClass("active");
+            }
 
-	/* drop down animation for left bar */
-	$(".drop_down_button").click(function() {
-		$(this).next("ul").slideToggle("fast");
-		$(this).toggleClass("active");
-		
-		if($(this).next("ul").attr("id") == 'school_list') {
-			if ($.cookie("school_list") == 'collapsed')
-				$.cookie("school_list", "expanded", { path: '/'});
-			else
-				$.cookie("school_list", "collapsed", { path: '/'});
-		} else {
-			if ($.cookie("course_list") == 'collapsed')
-				$.cookie("course_list", "expanded", { path: '/'});
-			else
-				$.cookie("course_list", "collapsed", { path: '/'});
-		}
-				
-		return false;
-	});
-		
-	/* make the whole logo block clickable */	
-	$("#logo").click(function(){
-		window.location = $(this).find("a").attr("href");
-		return false;
-	});
-	
-});
-</script>
+            if ($.cookie("course_list") == 'expanded') {
+                $("#course_list").css({ display: 'block' });
+            }
+            else {
+                $("#course_list").css({ display: 'none' });
+                $("#course_list").siblings("a").toggleClass("active");
+            }
+
+            /* drop down animation for left bar */
+            $(".drop_down_button").click(function () {
+                $(this).next("ul").slideToggle("fast");
+                $(this).toggleClass("active");
+
+                if ($(this).next("ul").attr("id") == 'school_list') {
+                    if ($.cookie("school_list") == 'collapsed')
+                        $.cookie("school_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("school_list", "collapsed", { path: '/'});
+                } else {
+                    if ($.cookie("course_list") == 'collapsed')
+                        $.cookie("course_list", "expanded", { path: '/'});
+                    else
+                        $.cookie("course_list", "collapsed", { path: '/'});
+                }
+
+                return false;
+            });
+
+            /* make the whole logo block clickable */
+            $("#logo").click(function () {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
 <div id="main_wrapper">
-<div id="upper_padding"></div>
-<div id="language_switcher">
-  <ul>
-    <li class="language_item current_language_item"><b>English</b></li><li class="language_item"><a href="../zh/index.html">中文</a></li>  </ul>
-</div>
-<div class="header_clear"></div>
-<h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
-<div id="banner"></div>
-<div class="header_clear"></div>
-<div class="strip_pad_top"><span>&nbsp;</span></div>
-
-<div id="main_content">
-    		<div id="post-482">
-		<h3>GOVERNMENT SCHOOLS</h3>			<div class="entry">
-				<p><h4>POLYTECHNICS</h4>There are 5 Polytechnics, Singapore Polytechnic, Temasek Polytechnic, Nanyang Polytechnic, Ngee Ann Polytechnic, Republic Polytechnic. The 5 Polytechnics provide three year diploma programmes. As Singapore Government provides 80% tuition grant to the students, therefore it attracts lots of foreign students. To enter the Polytechnics, students must pass the GCE O Level Examinations.  </p>
-
-<p><h4>GOVERNMENT HIGH SCHOOLS/JUNIOR COLLEGES</h4> Singapore's high school is also called the Junior Colleges (JC). The JCs provide 2 years academic courses to prepare for the GCE A Level examinations.  After passing GCE A Level examinations, students may apply to enter the Singapore Government Universities as well as the European and American various universities depending on the students’ results.  There is no admission of students in the middle of the course. Students must pass the GCE O level examinations to enroll into the JCs. </p>
-<P></P>
-<h4><p>GCE O LEVEL EXAMINATIONS</h4> The General Cambridge Examinations Ordinary Level is the standard examinations among the Commonwealth countries. Students will sit for the GCE O Level Exams after completing 4 years (Express programme) or 5 years (Normal programme) of secondary school education.  The student needs to take the O level preparation class before sitting for the O level exams. Because of the needs to participate in the O standard preparation class the study, and takes a test has certain difficulty, therefore O standard quite suitable result medium above, and is willing with to create future schoolmate diligently. </p>
-<P></P>
-<h4><p>GCE O LEVEL SUBJECTS</h4> The O Level examination subjects: English, Chinese, Mathematics, Science (physical chemistry), Humanities (geography history) and so on, chooses 4 at least, English, Chinese, mathematics, Humanities (geography history) is a compulsory subject. </p>
-<P></P>
-<h4><p>GCE O LEVEL EXAM TIME &#038; REGISTRATION TIME</h4> The O Level exams start from June to November.  The registration deadline is in March. </p>
-<P></P>
-<h4><p>SECONDARY SCHOOLS</h4>
-Majority of the secondary schools are government public schools. After graduating from the primary schools, students will take the 4 or 5 years of secondary education. According to student's level and learning capability, students will be streamed to Normal Academic class (5 years) or Express class (4 years). After 4 years (Express) or 5 years (Normal) of study students will take the Cambridge General Certificate Ordinary Level examinations (also known as “O” level).  Students must take English, Mother Tongue, Mathematics, Science and Humanities.  Students can choose elective subjects according to their results when promoting to Secondary 3.  Elective subjects are arts subjects, science subjects, commercial subjects and the technical subjects. The school fee payable by international students is S$341/month(ASEAN) and S$486/month(Non-ASEAN). </p>
-<P></P>
-<h4><p>PRIMARY SCHOOL/DIRECT ADMISSIOIN AT PRIMARY 1</h4>
-There are approximately 200 government primary schools.  School year starts on 2nd of January every year. Children start schooling at the age of 6.  The 6 years of primary education is divided into four years of foundation stage (P1-4) and two year directional stage (P5-6).  In the foundation stage, the core subjects are English, Mother Tongue and Mathematics.  There are other supplementary subjects including music, arts and craft, Physical Education and Civic &#038; Moral Education. P3 students start to study Science.  For students to fully display their potential, students are streamed according to their learning capability at P4. In order to be promoted to secondary schools, primary students are to pass the Primary School Leaving Examination (PSLE) at P6. The school fee payable by international students is S$246/month(ASEAN) and S$356/month(Non-ASEAN).</p>
-				
-			</div>
-		</div>
-		  </div>
-  
-<div id="left_bar">
-  <ul id="left_nav_bar">
-    <li><a href="../../../../index.html">Home</a></li>
-    <li><a href="../../../../about-us/index.html">About us</a></li>
-    <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
-    <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
-    <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
-    <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS Preparatory Class</a></li>
-    <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
-         
-    <li><a href="index.html#" class="drop_down_button active">Schools</a>
-      <ul id="school_list" class="drop_down_list">
-        <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
-        <li><a href="../../../apmi/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
-        <li><a href="../../../easb/index.html">EASB</a></li>
-        <li><a href="../../../erc/index.html">ERC</a></li>
-        <li><a href="../../../ftc/index.html">FTC</a></li>
-        <li><a href="../../../hartford/langswitch_lang/zh/index.html">Raffles College</a></li>
-        <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
-        <li><a href="../../../jcu/index.html">JCU</a></li>
-        <li><a href="../../../mdis/index.html">MDIS</a></li>
-        <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
-        <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
-        <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
-        <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
-        <li><a href="../../../simm/index.html">SIMM</a></li>
-        <li><a href="../../../tmis/index.html">TMIS</a></li>
-        <li><a href="../../index.html">Government Schools</a></li>
-        
-      </ul>
-    </li>
-    <li><a href="index.html#" class="drop_down_button active">Courses</a>
-      <ul id="course_list" class="drop_down_list">
-        <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
-        <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
-        <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
-        <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
-        <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
-        <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
-        <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
-        <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
-        <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
-        <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
-        <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
-        <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design Institute</a></li>
-        <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
-        <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub Education</a></li>
-        <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
-        <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
-      </ul>
-    </li>
-    <li><a href="../../../../partnership/index.html">Partnership</a></li>
-    <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
-  </ul>
-  
-  <div class="search-form">
-    <script type="text/javascript">
-$(document).ready(function(){
-	$(".search-form input").focus(function(){
-		if($(this).val() == 'Search...') {
-			$(this).val("");
-		}
-	});
-});	
-
-</script>
-    <form method="get" id="searchform" action="http://studyabroadsg.com/">
-      <input type="text" value="Search..." name="s" id="s" maxlength="255"
-        onblur="if (this.value == '') {this.value = 'Search...';}"  
-       />
-      <input type="hidden" id="searchsubmit" />
-    </form>
-  </div>
-  	<div id="wp_quotes">
-		<div class="wp_quotes_quote">Nothing is more powerful and liberating than knowledge.</div>
-					<div class="wp_quotes_author">William H. Gray III</div>
-				</div>
-	</div>
-<div class="header_clear"></div>
-  <div class="strip_pad_bottom"><span>&nbsp;</span></div>
-  <div id="footer">
-  	<p id="footer_link"><a href="../../../../index.html">Home</a> | <a href="../../../../about-us/index.html">About</a> | <a href="../../../../contact-us/index.html">Contact</a> | <a href="../../../../sitemap/index.html">Sitemap</a></p>
-    <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
-    <div id="wp_watermark"></div>
-    <div id="footer_misc">
-      <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
-      <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator" target="_blank">XHTML</a> <a href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all" title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a> <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+    <div id="upper_padding"></div>
+    <div id="language_switcher">
+        <ul>
+            <li class="language_item current_language_item"><b>English</b></li>
+            <li class="language_item"><a href="../zh/index.html">中文</a></li>
+        </ul>
     </div>
-  </div>
+    <div class="header_clear"></div>
+    <h1 id="logo"><a href="../../../../index.html">Singapore Foreign Student Services Centre</a></h1>
+
+    <div id="banner"></div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_top"><span>&nbsp;</span></div>
+
+    <div id="main_content">
+        <div id="post-482">
+            <h3>GOVERNMENT SCHOOLS</h3>
+
+            <div class="entry">
+                <p><h4>POLYTECHNICS</h4>There are 5 Polytechnics, Singapore Polytechnic, Temasek Polytechnic, Nanyang
+                Polytechnic, Ngee Ann Polytechnic, Republic Polytechnic. The 5 Polytechnics provide three year diploma
+                programmes. As Singapore Government provides 80% tuition grant to the students, therefore it attracts
+                lots of foreign students. To enter the Polytechnics, students must pass the GCE O Level
+                Examinations.  </p>
+
+                <p><h4>GOVERNMENT HIGH SCHOOLS/JUNIOR COLLEGES</h4> Singapore's high school is also called the Junior
+                Colleges (JC). The JCs provide 2 years academic courses to prepare for the GCE A Level examinations.
+                After passing GCE A Level examinations, students may apply to enter the Singapore Government
+                Universities as well as the European and American various universities depending on the students’
+                results. There is no admission of students in the middle of the course. Students must pass the GCE O
+                level examinations to enroll into the JCs. </p>
+                <P></P>
+                <h4><p>GCE O LEVEL EXAMINATIONS</h4>
+                The General Cambridge Examinations Ordinary Level is the standard examinations among the Commonwealth
+                countries. Students will sit for the GCE O Level Exams after completing 4 years (Express programme) or 5
+                years (Normal programme) of secondary school education. The student needs to take the O level
+                preparation class before sitting for the O level exams. Because of the needs to participate in the O
+                standard preparation class the study, and takes a test has certain difficulty, therefore O standard
+                quite suitable result medium above, and is willing with to create future schoolmate diligently. </p>
+                <P></P>
+                <h4><p>GCE O LEVEL SUBJECTS</h4>
+                The O Level examination subjects: English, Chinese, Mathematics, Science (physical chemistry),
+                Humanities (geography history) and so on, chooses 4 at least, English, Chinese, mathematics, Humanities
+                (geography history) is a compulsory subject. </p>
+                <P></P>
+                <h4><p>GCE O LEVEL EXAM TIME &#038; REGISTRATION TIME</h4>
+                The O Level exams start from June to November. The registration deadline is in March. </p>
+                <P></P>
+                <h4><p>SECONDARY SCHOOLS</h4>
+                Majority of the secondary schools are government public schools. After graduating from the primary
+                schools, students will take the 4 or 5 years of secondary education. According to student's level and
+                learning capability, students will be streamed to Normal Academic class (5 years) or Express class (4
+                years). After 4 years (Express) or 5 years (Normal) of study students will take the Cambridge General
+                Certificate Ordinary Level examinations (also known as “O” level). Students must take English, Mother
+                Tongue, Mathematics, Science and Humanities. Students can choose elective subjects according to their
+                results when promoting to Secondary 3. Elective subjects are arts subjects, science subjects, commercial
+                subjects and the technical subjects. The school fee payable by international students is
+                S$341/month(ASEAN) and S$486/month(Non-ASEAN). </p>
+                <P></P>
+                <h4><p>PRIMARY SCHOOL/DIRECT ADMISSIOIN AT PRIMARY 1</h4>
+                There are approximately 200 government primary schools. School year starts on 2nd of January every year.
+                Children start schooling at the age of 6. The 6 years of primary education is divided into four years of
+                foundation stage (P1-4) and two year directional stage (P5-6). In the foundation stage, the core
+                subjects are English, Mother Tongue and Mathematics. There are other supplementary subjects including
+                music, arts and craft, Physical Education and Civic &#038; Moral Education. P3 students start to study
+                Science. For students to fully display their potential, students are streamed according to their
+                learning capability at P4. In order to be promoted to secondary schools, primary students are to pass
+                the Primary School Leaving Examination (PSLE) at P6. The school fee payable by international students is
+                S$246/month(ASEAN) and S$356/month(Non-ASEAN).</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="left_bar">
+        <ul id="left_nav_bar">
+            <li><a href="../../../../index.html">Home</a></li>
+            <li><a href="../../../../about-us/index.html">About us</a></li>
+            <li><a href="../../../../studying-in-singapore/index.html">Studying in Singapore</a></li>
+            <li><a href="../../../../living-in-singapore/index.html">Living in Singapore</a></li>
+            <li><a href="../../../../student-accommodation/index.html">Student Accommodation</a></li>
+            <li><a href="../../../../student-accommodation/aeis-preparatory-class/langswitch_lang/zh/index.html">AEIS
+                Preparatory Class</a></li>
+            <li><a href="../../../../student-accommodation/educational-tour/index.html">Educational Tour </a></li>
+
+            <li><a href="index.html#" class="drop_down_button active">Schools</a>
+                <ul id="school_list" class="drop_down_list">
+                    <li><a href="../../../aimt/langswitch_lang/zh/index.html">AIMT</a></li>
+                    <li><a href="../../../apmi/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/schools/cbs">CBS</a></li>
+                    <li><a href="../../../easb/index.html">EASB</a></li>
+                    <li><a href="../../../erc/index.html">ERC</a></li>
+                    <li><a href="../../../ftc/index.html">FTC</a></li>
+                    <li><a href="../../../hartford/langswitch_lang/zh/index.html">Raffles College</a></li>
+                    <li><a href="../../../informatics/langswitch_lang/zh/index.html">Informatics</a></li>
+                    <li><a href="../../../jcu/index.html">JCU</a></li>
+                    <li><a href="../../../mdis/index.html">MDIS</a></li>
+                    <li><a href="../../../polytechnics/index.html">Polytechnics</a></li>
+                    <li><a href="../../../psb-academy/index.html">PSB Academy</a></li>
+                    <li><a href="../../../raffles-design-institute/langswitch_lang/zh/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../saa/langswitch_lang/zh/index.html">SAA</a></li>
+                    <li><a href="../../../aspire-hub-education/index.html">Aspire Hub Education</a></li>
+                    <li><a href="../../../simm/index.html">SIMM</a></li>
+                    <li><a href="../../../tmis/index.html">TMIS</a></li>
+                    <li><a href="../../index.html">Government Schools</a></li>
+
+                </ul>
+            </li>
+            <li><a href="index.html#" class="drop_down_button active">Courses</a>
+                <ul id="course_list" class="drop_down_list">
+                    <li><a href="../../../../courses/apmi-courses/index.html">APMI</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/cbs-courses">CBS</a></li>
+                    <li><a href="../../../../courses/easb-courses/index.html">EASB</a></li>
+                    <li><a href="../../../../courses/erc-courses/index.html">ERC</a></li>
+                    <li><a href="../../../../courses/ftc-courses/index.html">FTC</a></li>
+                    <li><a href="../../../../courses/hartford-courses/index.html">Hartford</a></li>
+                    <li><a href="../../../../courses/informatics-courses/index.html">Informatics</a></li>
+                    <li><a href="../../../../courses/jcu-courses/index.html">JCU</a></li>
+                    <li><a href="../../../../courses/mdis-courses/index.html">MDIS</a></li>
+                    <li><a href="../../../../courses/polytechnics-courses/index.html">Polytechnics</a></li>
+                    <li><a href="../../../../courses/psb-academy-courses/index.html">PSB Academy</a></li>
+                    <li><a href="../../../../courses/raffles-design-institute-courses/index.html">Raffles Design
+                        Institute</a></li>
+                    <li><a href="../../../../courses/saa-courses/index.html">SAA</a></li>
+                    <li><a href="http://studyabroadsg.com/courses/Aspire%20Hub%20Education-courses">Aspire Hub
+                        Education</a></li>
+                    <li><a href="../../../../courses/simm-courses/index.html">SIMM</a></li>
+                    <li><a href="../../../../courses/tmis-courses/index.html">TMIS</a></li>
+                </ul>
+            </li>
+            <li><a href="../../../../partnership/index.html">Partnership</a></li>
+            <li><a href="../../../../contact-us/index.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-form">
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $(".search-form input").focus(function () {
+                        if ($(this).val() == 'Search...') {
+                            $(this).val("");
+                        }
+                    });
+                });
+
+            </script>
+            <form method="get" id="searchform" action="http://studyabroadsg.com/">
+                <input type="text" value="Search..." name="s" id="s" maxlength="255"
+                       onblur="if (this.value == '') {this.value = 'Search...';}"
+                        />
+                <input type="hidden" id="searchsubmit"/>
+            </form>
+        </div>
+        <div id="wp_quotes">
+            <div class="wp_quotes_quote">Nothing is more powerful and liberating than knowledge.</div>
+            <div class="wp_quotes_author">William H. Gray III</div>
+        </div>
+    </div>
+    <div class="header_clear"></div>
+    <div class="strip_pad_bottom"><span>&nbsp;</span></div>
+    <div id="footer">
+        <p id="footer_link"><a href="../../../../index.html">Home</a> | <a
+                href="../../../../about-us/index.html">About</a> | <a
+                href="../../../../contact-us/index.html">Contact</a> | <a
+                href="../../../../sitemap/index.html">Sitemap</a></p>
+
+        <p id="copyright">&copy; 2008 Singapore Foreign Student Services Centre</p>
+
+        <div id="wp_watermark"></div>
+        <div id="footer_misc">
+            <p>Powered by <a href="http://wordpress.org" target="_blank">Wordpress</a></p>
+
+            <p><a href="http://validator.w3.org/check?uri=referer" title="This site is W3C compliant" class="validator"
+                  target="_blank">XHTML</a> <a
+                    href="http://jigsaw.w3.org/css-validator/validator?uri=studyabroadsg.com&profile=css21&usermedium=all"
+                    title="This site is coded with validate CSS" class="validator" target="_blank">CSS</a>
+                <!-- <a href="/sitemap" class="sitemap" title="Sitemap">Sitemap</a> --> </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>
