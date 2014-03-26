@@ -1,0 +1,13 @@
+<textarea id="myText">
+    Lorem ipsum...
+</textarea>
+<button onclick="sendMail(); return false">Send</button>
+        function sendMail() {
+    var link = "mailto:daiyong2010@gmail.com"
+             + "?cc=daiyong2010@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+}
